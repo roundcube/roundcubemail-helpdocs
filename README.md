@@ -28,9 +28,9 @@ for the navigation into the `_build/html/0.9/en_US` output directory.
 Translating
 -----------
 
-Volunteers who want to help translating the online help files into another language, please fork
+Volunteers who want to help translating the online help files into another language, please [fork][github-fork]
 this repository and add a folder with your language (e.g. `pt_BR`) and copy the source files from `en_US`
-into it. Once finished, send us a pull request via github.
+into it. Once finished, send us a [pull request][github-pull] via github.
 
 
 License
@@ -50,4 +50,6 @@ under the conditions that
 
 
 [sphinx]: http://sphinx-doc.org
+[github-fork]: https://help.github.com/articles/fork-a-repo
+[github-pull]: https://help.github.com/articles/using-pull-requests
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/3.0/
