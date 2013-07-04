@@ -43,6 +43,6 @@ The drop-down menu next to the search box offers some pre-defined filters for qu
 reducing the messages listed to their status priority.
 
 The filter rules selected here are applied in addition to the search term entered in the search box.
-For example you can choose to only list unaswered messages from Paul by selecting the filter *Unaswered* and enter
+For example you can choose to only list unanswered messages from Paul by selecting the filter *Unanswered* and enter
 "from:Paul" in the search box.
 

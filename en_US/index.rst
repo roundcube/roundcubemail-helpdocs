@@ -13,6 +13,7 @@ Table Of Contents
    login
    overview
    mail/index
+   addressbook/index
 
 
 Indices and Tables

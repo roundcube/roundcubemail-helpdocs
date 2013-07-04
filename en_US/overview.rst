@@ -9,7 +9,7 @@ Getting Started
 General Overview of the User Interface
 ======================================
 
-Once authenticated, the screen of Roundcube webmail is diveded into functional parts which are explained here:
+Once authenticated, the screen of Roundcube webmail is divided into functional parts which are explained here:
 
 .. image:: _static/_skin/overview.png
 
@@ -21,7 +21,7 @@ Once authenticated, the screen of Roundcube webmail is diveded into functional p
 The webmail application provides different main tasks such as Email, Address Book, Settings, etc.
 Use this list to switch from one task to another. That will reload the screen with a specific view
 for the selected task. Instead of switching back and forth, task screens can be opened in individual
-browser windows or tabs. Richt-click on a task icon in the list and then choose "Open Link in New Tab/Window" from
+browser windows or tabs. Right-click on a task icon in the list and then choose "Open Link in New Tab/Window" from
 the browser's context menu to do so.
 
 Beside the main tasks, the button to terminate the current session (*Logout*) is also located here.
@@ -31,9 +31,9 @@ Beside the main tasks, the button to terminate the current session (*Logout*) is
 
 (2) Status Display
 ------------------
-This area of the sceeen is dedicated to display status notifications (e.g. confirmations, warnings, errors)
+This area of the screen is dedicated to display status notifications (e.g. confirmations, warnings, errors)
 about the success or failure of the operations you just executed in the application. While the app is
-working or loading data, a notifiaction is displayed here as well.
+working or loading data, a notification is displayed here as well.
 
 
 .. index:: Toolbar
@@ -53,7 +53,7 @@ Additional actions can be found by clicking the *More* button (if available).
 (4) List Operations
 -------------------
 The icons in the footer area of a list, provide actions that influencing the list above or the currently
-seleted element of the list respectively.
+selected element of the list respectively.
 
 
 .. index:: Search

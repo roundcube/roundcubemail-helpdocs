@@ -15,6 +15,8 @@ Incoming messages usually appear in the Inbox folder which is the first item in 
 There are some special folders which are used by the system to store sent (*Sent*) or deleted (*Trash*) messages
 and where not-yet-sent message drafts (*Drafts*) are saved. These system folders are indicated with special icons.
 
+The number of unread messages in each folder is displayed at the right border of the folders list.
+
 Click a folder in the list to show the contained messages in the messages list on the right. The currently selected folder
 is highlighted in the list.
 
@@ -33,8 +35,8 @@ Most of the actions in the menu affect the currently selected folder.
   undone. For security reasons, this action is only available for the Trash and Junk folders.
 
 **Manage folders**
-  This menu item will take you the settings secion when you can manage the mailbox folders. This is where you can create,
-  delete, rename or re-organize your email folders.
+  This menu item will take you the :ref:`settings section <settings-folders>` when you can manage the mailbox folders.
+  This is where you can create, delete, rename or re-organize your email folders.
 
 
 .. index:: Messages, List
@@ -48,6 +50,10 @@ The number of messages displayed in the list and the total number of messages in
 According to your settings, this list only displays a limited number of messages at a time. Use the allow buttons below the list
 to browse through the multiple "pages".
 
+The application periodically checks for new messages and will update the display if new emails arrived. You can force this check manually
+by clicking the *Refresh* button in mail view the toolbar.
+
+
 .. index:: Read
 
 Open a Message for Reading
@@ -57,7 +63,7 @@ right below the list. In order to open a message in full view or a new window (d
 Another way to open a message in a new browser tab or window is to right-click on the subject and then choose "Open Link in New Tab/Window"
 from the browser's context menu.
 
-Selecting a message in the list will also actiavate toolbar buttons that offer further actions related to the selected message,
+Selecting a message in the list will also activate toolbar buttons that offer further actions related to the selected message,
 such as replying, forwarding or deleting it.
 
 .. index:: Unread, Flag

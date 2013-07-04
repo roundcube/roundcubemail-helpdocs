@@ -21,7 +21,7 @@ at a later time. The email will be stored in the *Drafts* folder and can be doub
 resume composition.
 
 Hint: while composing a message, copies are periodically saved to the drafts folder to avoid unintentional loss.
-In case the session terminates enexpectedly or your computer or browser crashes, you'll find a copy of the message
+In case the session terminates unexpectedly or your computer or browser crashes, you'll find a copy of the message
 on the *Drafts* folder. You can configure the automatic saving interval in the :ref:`Settings <settings-compose>` section.
 
 
@@ -32,7 +32,7 @@ Reply to a Message
 
 If you want to respond on a received message, click the *Reply* or the *Reply all* button in the toolbar
 or the equivalent buttons in the :ref:`Preview Pane <mail-preview-pane>`. This will also open the compose screen
-but with a quote of the message you're replying to and with the recipient(s) prefilled.
+but with a quote of the message you're replying to and with the recipient(s) pre-filled.
 
 While *Reply* will copy the sender address into *To* field, *Reply all* will add all recipients of the original
 message to the *To* and *Cc* fields.
@@ -42,11 +42,11 @@ message to the *To* and *Cc* fields.
 Forwarding Messages
 ^^^^^^^^^^^^^^^^^^^
 
-Messages can also be fowarded to somebody by clicking the *Forward* button in the toolbar. The compose screen will
+Messages can also be forwarded to somebody by clicking the *Forward* button in the toolbar. The compose screen will
 contain the message text and all attachments already added. You can still add more attachments or remove some you don't
 want to forward.
 
-The *Forward* toolbar button offer the following options:
+The *Forward* toolbar button offers the following options:
 
 **Forward inline**
     In this (default) mode, the content of the original message is copied to the message text editor and can be altered or deleted.
@@ -55,7 +55,7 @@ The *Forward* toolbar button offer the following options:
 
 **Forward as attachment**
     With this option, the original message is copied as attachment to the forwarding message. This will preserve the message with
-    all its formatting and attachments and doesn't allow you to alter anyting.
+    all its formatting and attachments and doesn't allow you to alter anything.
 
 
 .. index:: Recipients, CC, Bcc
@@ -65,25 +65,25 @@ Selecting Recipients from Address Books
 ---------------------------------------
 
 The recipients of the composed message can be freely entered into the *To* or *Cc* fields in the header section of the compose screen.
-Sparate multiple addresses with a coma (,). Make sure you enter full and valid email addresses.
+Separate multiple addresses with a coma (,). Make sure you enter full and valid email addresses.
 
 .. index:: Autocomplete
 
 Address Book Autocompletion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-While typing a recipeint address, the app continuously search your address book and suggest matching entries right below the text cursor.
+While typing a recipient address, the app continuously searched your address book and suggests matching entries right below the input field.
 Use the cursor keys (up/down) on the keyboard to select one and then hit <Enter> or <Tab> to copy the highlighted address into the recipient field.
 
-Using the Address Book Widet
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Using the Address Book Widget
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you prefer to select recpients from a list of contacts, use the address book widget on the left side to browser through them.
-First, select the address book to browse on the upper part of the widget and see the contacts listed below. Onyl a limited number
+If you prefer to select recipients from a list of contacts, use the address book widget on the left side to look them up.
+First, select the address book to browse on the upper part of the widget and see the contacts listed below. Only a limited number
 of contacts is displayed at a time so use the arrow buttons in the widget header to jump to the next page of contacts.
 
-Select one or more contacts in the list and then click one of the buttons below (*To+*, *Cc+*, *Bcc+*) in order to copy the selected
-contacts in the according recipient field. Double-click a contact in the list to have it added to the *To* field immediately.
+Select one or more contacts in the list and then click either one of the buttons below (*To+*, *Cc+*, *Bcc+*) in order to copy the selected
+contacts to the according recipient field. Double-click a contact in the list to have it added to the *To* field immediately.
 
 
 .. index:: Attachments
@@ -100,7 +100,7 @@ icon of the according file.
 
    .. image:: ../../_static/_skin/filedrop.png
 
-   If your browser supports HTML5, you see the file-drop icon at the bottom of the attachment list. That means you can drag a file from
+   If your browser supports HTML5, you'll see the file-drop icon at the bottom of the attachment list. That means you can drag a file from
    your computer's file explorer with the mouse onto that icon in order to attach it to the message.
 
 
@@ -110,10 +110,10 @@ icon of the according file.
 Composing Formatted (HTML) Messages
 -----------------------------------
 
-Depending on your settings, the compose screen shows a simple text field to enter the message or a richt text editor
+Depending on your settings, the compose screen shows a simple text field to enter the message or a rich text editor
 with a toolbar that enables text formatting, bullet lists, image embedding and more.
 
-You can toggle the composition mode between plain and richt text (HTML) with the *Editor Type* selector which is hidden
+You can toggle the composition mode between plain and rich text (HTML) with the *Editor Type* selector which is hidden
 in the sending options bar. Expand the :ref:`Sending Options <mail-compose-options>` by clicking the down-arrow on the
 left border of the message headers block.
 
@@ -144,7 +144,7 @@ Other Message Sending Options
    The message sending options are hidden by default and first need to be expanded by clicking the down-arrow
    on the left border of the message headers block.
 
-There you can switch the editor typ to :ref:`compose html messages <mail-compose-html>` and adjust other settings
+There you can switch the editor type to :ref:`compose html messages <mail-compose-html>` and adjust other settings
 concerning the message delivery.
 
 **Priority**
@@ -160,4 +160,4 @@ concerning the message delivery.
 
 **Save sent message in**
     Select the folder where to save a copy of the message after sending it. This defaults to the *Sent* folder
-    and can be changed here. Select *dont't save* to just send the message without saving a copy.
+    and can be changed here. Select *don't save* to just send the message without saving a copy.
