@@ -33,4 +33,21 @@ this repository and add a folder with your language (e.g. `pt_BR`) and copy the 
 into it. Once finished, send us a pull request via github.
 
 
+License
+-------
+
+All contents published under the [Creative Commons Attribution-ShareAlike][cc-by-sa] license.
+You are free to
+
+* Share — to copy, distribute and transmit the work
+* Remix — to adapt the work
+* make commercial use of the work
+
+under the conditions that
+
+* you must attribute the work by mentioning the original source and authors
+* if you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+
+
 [sphinx]: http://sphinx-doc.org
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/3.0/
