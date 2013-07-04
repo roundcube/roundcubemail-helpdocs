@@ -1,0 +1,32 @@
+{% extends "!layout.html" %}
+
+{% block rootrellink %}
+<li class="right"><a href="{{ pathto('search') }}">{{ _('search') }}</a>&nbsp;|</li>
+<li class="right"><a href="{{ pathto('index') }}">{{ _('home') }}</a>&nbsp;|</li>
+{% endblock %}
+
+{% block relbar1 %}
+<div class="banner">
+<div class="bannerwrapper">
+    <h1 class="banner-logo">Roundcube Webmail Help</h1>
+{{ super() }}
+</div>
+<div class="clearer"></div>
+</div>
+{% endblock %}
+
+{% block relbar2 %}
+<div class="footline">
+{{ super() }}
+</div>
+{% endblock %}
+
+{# put the sidebar inside the document #}
+{% block document %}
+<div class="documentinner">
+{{ super() }}
+{{ sidebar() }}
+</div>
+{% endblock %}
+{% block sidebar1 %}{% endblock %}
+{% block sidebar2 %}{% endblock %}
