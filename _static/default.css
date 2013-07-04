@@ -283,6 +283,26 @@ p.admonition-title:after {
     content: ":";
 }
 
+div.image-left img {
+    float: left;
+    margin-right: 1em;
+}
+
+div.image-left p {
+    display: inline;
+    clear: left;
+}
+
+div.image-right img {
+    float: right;
+    margin-left: 1em;
+}
+
+div.image-right p {
+    display: inline;
+    clear: right;
+}
+
 pre {
     padding: 5px;
     background-color: #eeffcc;

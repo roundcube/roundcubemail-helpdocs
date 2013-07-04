@@ -131,5 +131,11 @@ The rightmost icon will open the message in a new window to have a full-size vie
 
 Toggle Message Headers
 ----------------------
-The previe pane is meant to give you a quick view on the message. Thus only important message headers such as sender and date are displayed right away.
-The header part of the preview can be expanded with click on the down-arrow at the left of the header.
+
+.. container:: image-right
+
+  .. image:: ../_static/_skin/preview-headers.png
+
+  The preview pane is meant to give you a quick view on the message. Thus only important message headers such as sender and date are displayed right away.
+  The header part of the preview can be expanded with click on the down-arrow at the left of the header.
+
