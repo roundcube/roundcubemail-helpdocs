@@ -1,5 +1,5 @@
-Roundcube Webmail Online Help Sources
-=====================================
+Roundcube Webmail Online Help
+=============================
 
 The repo contains the sources to generate the online help files documenting
 the functions of Roundcube Webmail for end users.
