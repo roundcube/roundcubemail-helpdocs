@@ -1,4 +1,4 @@
-.. index:: Compose
+.. index:: Compose Email
 .. _mail-compose:
 
 ======================

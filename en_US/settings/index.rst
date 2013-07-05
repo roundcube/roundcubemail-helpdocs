@@ -1,4 +1,4 @@
-.. index:: Settings, Preferences
+.. index:: Settings
 .. _settings:
 
 ********

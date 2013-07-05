@@ -5,12 +5,14 @@
 Address Book
 ************
 
-The *Address Book* task provides access to contact data saved in your personal or shared address books.
+The *Address Book* task provides access to contact data saved in your personal or shared address books
+and a rich interface to manage them.
 
 .. toctree::
    :maxdepth: 2
 
    addressbookview
+   editing
    searching
    importexport
 
