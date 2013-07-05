@@ -10,7 +10,7 @@ Directories and Groups
 
 The leftmost pane displays a list of address directories and contact groups within each of the directories.
 Depending on your server configuration and installed plugins you might see multiple directories but there's at
-least one directory which cotnains your personal contacts.
+least one directory which contains your personal contacts.
 
 Contact groups are handy to organize your contacts. They can also be selected when composing an email message and will
 enter all members as a recipient. Groups will also appear in the :ref:`auto-completion <mail-compose-recipeints>` list
@@ -35,7 +35,7 @@ The creation action can be aborted by pressing the <Esc> key while entering the 
 Assigning Contacts to Groups
 ----------------------------
 
-Contacts can be assigned to groups my draging & dropping them with the mouse. Select one or multiple contacts in the list
+Contacts can be assigned to groups my dragging & dropping them with the mouse. Select one or multiple contacts in the list
 and drop them onto the desired group. It's a simple as that.
 
 
@@ -79,7 +79,7 @@ Also in the footer of the groups list, the gear icon shows a menu with actions r
 Contacts List
 =============
 
-The contacts of the selected address cirecotry or group are presented in this list with their names. The total number of contacts
+The contacts of the selected address directory or group are presented in this list with their names. The total number of contacts
 in the particular directory or group is stated right below the list as well as the set that is currently displayed. Use the arrow buttons
 in the list header to navigate through the pages.
 
@@ -120,7 +120,7 @@ area on the right.
 Contact Details
 ===============
 
-The full details of a contact are displayed in the righmost box of the address book screen. Select a single contact
+The full details of a contact are displayed in the rightmost box of the address book screen. Select a single contact
 in the list in order to see the details here. Contact properties are structured with tabs and boxes grouping similar properties
 like phone numbers, postal or email addresses.
 
