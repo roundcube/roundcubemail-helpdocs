@@ -11,7 +11,7 @@ The *Email* task provides all functions to read, write and organize email messag
    :maxdepth: 2
 
    mailview
-   searching
+   reading
    compose
+   searching
    organization
-

@@ -14,6 +14,7 @@ Table Of Contents
    overview
    mail/index
    addressbook/index
+   settings/index
 
 
 Indices and Tables

@@ -20,9 +20,11 @@ Save it as *Draft* (toolbar icon) if the message is not yet complete and you'd l
 at a later time. The email will be stored in the *Drafts* folder and can be double-clicked there in order to
 resume composition.
 
-Hint: while composing a message, copies are periodically saved to the drafts folder to avoid unintentional loss.
-In case the session terminates unexpectedly or your computer or browser crashes, you'll find a copy of the message
-on the *Drafts* folder. You can configure the automatic saving interval in the :ref:`Settings <settings-compose>` section.
+.. container:: hint
+
+    Hint: while composing a message, copies are periodically saved to the drafts folder to avoid unintentional loss.
+    In case the session terminates unexpectedly or your computer or browser crashes, you'll find a copy of the message
+    on the *Drafts* folder. You can configure the automatic saving interval in the :ref:`User Preferences <settings-prefs-compose>`.
 
 
 .. index:: Reply

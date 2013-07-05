@@ -2,43 +2,6 @@ The content area of the screen shows three areas: :ref:`mail-folders`, :ref:`mai
 :ref:`Preview Pane <mail-preview-pane>` which can be toggled.
 
 
-.. index:: Folders
-.. _mail-folders:
-
-Mailbox folders
-===============
-On the left side you see a hierarchical list of all folders in your mailbox.
-Folders can be used to file email messages by topic, sender or whatever you choose
-for organization.
-
-Incoming messages usually appear in the Inbox folder which is the first item in the folders list.
-There are some special folders which are used by the system to store sent (*Sent*) or deleted (*Trash*) messages
-and where not-yet-sent message drafts (*Drafts*) are saved. These system folders are indicated with special icons.
-
-The number of unread messages in each folder is displayed at the right border of the folders list.
-
-Click a folder in the list to show the contained messages in the messages list on the right. The currently selected folder
-is highlighted in the list.
-
-.. index:: Compact, Empty
-
-Folder operations
------------------
-In the footer of the folders list, the *Folder actions* icon shows a list of folder-related actions when clicked.
-Most of the actions in the menu affect the currently selected folder.
-
-**Compact**
-  This action will compress the folder size by finally deleting messages that have been marked for deletion.
-
-**Empty**
-  This will delete all messages in the selected folder permanently. Be very careful with this operation as it cannot be
-  undone. For security reasons, this action is only available for the Trash and Junk folders.
-
-**Manage folders**
-  This menu item will take you the :ref:`settings section <settings-folders>` when you can manage the mailbox folders.
-  This is where you can create, delete, rename or re-organize your email folders.
-
-
 .. index:: Messages, List
 .. _mail-messages-list:
 
@@ -84,6 +47,7 @@ The sorting order of the messages can be changed by clicking the column in the l
 messages being sorted by. Click it once more to reverse the order. The column used for sorting is highlighted in the list header.
 
 .. index:: Threads
+.. _mail-list-thread:
 
 Threaded message listing
 ------------------------
@@ -101,13 +65,16 @@ The columns displayed in the list can be adjusted by clicking the *List Options*
 This opens a dialog where you can select which columns to display and how to sort messages. Click *Save* to apply the changes and to
 close the dialog again.
 
-Hint: the "From/To" column is a "magic" column that displays the sender of the message *or* the recipient when you switch to the Sent or
-Drafts folder.
+.. container:: hint
+
+  Hint: the "From/To" column is a magic column that displays the sender of the message *or* the recipient when you switch to the Sent or
+  Drafts folder.
 
 The order of the columns in list can also be adjusted by dragging the header of a specific column with the mouse and dropping it at
 the position you'd like it appear.
 
 .. index:: Select
+.. _mail-list-select:
 
 Selecting Multiple Messages
 ---------------------------
@@ -118,11 +85,48 @@ There are also selection helpers hidden in the *Select* drop-down menu located i
 unread or flagged messages at once or to invert or reset the current selection.
 
 
+.. index:: Folders
+.. _mail-folders:
+
+Mailbox folders
+===============
+On the left side you see a hierarchical list of all folders in your mailbox.
+Folders can be used to file email messages by topic, sender or whatever you choose
+for organization.
+
+Incoming messages usually appear in the Inbox folder which is the first item in the folders list.
+There are some special folders which are used by the system to store sent (*Sent*) or deleted (*Trash*) messages
+and where not-yet-sent message drafts (*Drafts*) are saved. These system folders are indicated with special icons.
+
+The number of unread messages in each folder is displayed at the right border of the folders list.
+
+Click a folder in the list to show the contained messages in the messages list on the right. The currently selected folder
+is highlighted in the list.
+
+.. index:: Compact, Empty
+
+Folder operations
+-----------------
+In the footer of the folders list, the *Folder actions* icon shows a list of folder-related actions when clicked.
+Most of the actions in the menu affect the currently selected folder.
+
+**Compact**
+  This action will compress the folder size by finally deleting messages that have been marked for deletion.
+
+**Empty**
+  This will delete all messages in the selected folder permanently. Be very careful with this operation as it cannot be
+  undone. For security reasons, this action is only available for the Trash and Junk folders.
+
+**Manage folders**
+  This menu item will take you the :ref:`settings section <settings-folders>` when you can manage the mailbox folders.
+  This is where you can create, delete, rename or re-organize your email folders.
+
+
 .. index:: Preview
 .. _mail-preview-pane:
 
-The Message Preview Pane
-========================
+Preview Pane
+============
 If enabled, the preview pane below the message list displays the currently selected message right in the main email view.
 In order to open it, click the toggle icon |previewtoggle| in the message list footer. Clicking the same icon again will hide
 the preview pane.

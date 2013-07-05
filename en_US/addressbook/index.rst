@@ -1,5 +1,5 @@
 .. index:: Addresses, Address Book
-.. _mail:
+.. _addressbook:
 
 ************
 Address Book
