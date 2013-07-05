@@ -255,6 +255,18 @@ div.body p img {
     vertical-align: middle;
 }
 
+div.body div.hint,
+div.body div.note {
+    color: #444;
+    background-color: #def3fe;
+    border: 1px solid #c5d7e0;
+    padding: 8px;
+}
+
+div.body div.note {
+    color: #000;
+}
+
 div.admonition p.admonition-title + p {
     display: inline;
 }
