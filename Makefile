@@ -4,11 +4,14 @@
 # You can set these variables from the command line.
 SOURCE        = en_US
 VERSION       = 0.9
-SPHINXOPTS    = -c . -D language=en
+LANGUAGE      = en
+# use tags to include documentation for specific plugins
+TAGS          = -t archive
+SPHINXOPTS    = -c . -D language=$(LANGUAGE)
 SPHINXBUILD   = sphinx-build
 BUILDDIR      = _build
 
-ALLSPHINXOPTS = $(SPHINXOPTS) -d $(BUILDDIR)/doctrees/$(SOURCE)
+ALLSPHINXOPTS = $(SPHINXOPTS) $(TAGS) -d $(BUILDDIR)/doctrees/$(SOURCE)
 
 all: html
 
