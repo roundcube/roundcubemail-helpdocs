@@ -56,8 +56,8 @@ picture and save the contact to apply the changes.
 Create a New Contact
 --------------------
 
-A new contact can be added to the currently selected address directly by clicking the *Create new contact (+)*
-button in the footer of the :ref:`addressbook-contacts-list`. The form to add names and properties is the same
+A new contact can be added to the currently selected address directly by clicking the *Create new contact*
+button (+) in the footer of the :ref:`addressbook-contacts-list`. The form to add names and properties is the same
 as for editing. Finally create the new contact by clicking the *Save* button below the form.
 
 
