@@ -58,7 +58,7 @@ language = None
 
 # add this substitution to every page
 rst_epilog = """
-.. |skin| replace:: kolab
+.. |skin| replace:: larry
 """
 
 # There are two options for replacing |today|: either, you set today to some
@@ -191,7 +191,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'RoundcubeWebmailHelp.tex', u'Roundcube Webmail Help Documentation',
+  ('index', 'RoundcubeWebmailHelp.tex', project + ' Documentation',
    u'roundcube.net', 'manual'),
 ]
 
@@ -221,7 +221,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'roundcubewebmailhelp', u'Roundcube Webmail Help Documentation',
+    ('index', 'roundcubewebmailhelp', project + ' Documentation',
      [u'roundcube.net'], 1)
 ]
 
@@ -235,7 +235,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'RoundcubeWebmailHelp', u'Roundcube Webmail Help Documentation',
+  ('index', 'RoundcubeWebmailHelp', project + ' Documentation',
    u'roundcube.net', 'RoundcubeWebmailHelp', 'One line description of project.',
    'Miscellaneous'),
 ]
