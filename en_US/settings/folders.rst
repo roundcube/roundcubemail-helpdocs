@@ -69,3 +69,41 @@ Delete Folders
 2. Open the *Folder Actions* menu in the list footer and click *Delete*
 3. Confirm the deletion dialog
 
+
+.. only:: acl
+
+    .. index:: Sharing
+    .. _settings-folder-sharing:
+
+    Share Folders
+    -------------
+
+    Personal folders can be shared with other users of the email server either for reading only or with fine-grained permissions.
+    Select a folder in the list and if you're permitted to control sharing for this folder, the sharing section below the folder
+    properties on the right shows a list of users the folder is already shared with and their individual access rights.
+
+    Grant new Access Rights
+    ^^^^^^^^^^^^^^^^^^^^^^^
+
+    1. Click the *Add entry* button (+) in the sharing list footer
+    2. Enter the username or choose one from the autocompletion menu that appears when you start typing.
+       Instead of a specific user, permissons can be granted for all users or guests.
+    3. Select the access rights you want to grant for the user
+    4. Click *Save* to add the permission
+
+
+    Edit Access Rights
+    ^^^^^^^^^^^^^^^^^^
+
+    1. Select the permission entry in the list
+    2. Click *Edit* in the *Access rights actions* menu in the list footer or just double-click the line
+    3. Adjust the Access rights in the dialog that appears
+    4. Click *Save* to close the dialog again
+
+    Revoke Access Rights
+    ^^^^^^^^^^^^^^^^^^^^
+
+    1. Select the permission entry in the list
+    2. Click *Delete* in the *Access rights actions* menu in the list footer
+    3. Confirm the deletion dialog
+
