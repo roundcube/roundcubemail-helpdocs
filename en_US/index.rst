@@ -9,11 +9,13 @@ Table Of Contents
 
 .. toctree::
    :maxdepth: 2
+   :glob:
 
    login
    overview
    mail/index
    addressbook/index
+   plugins/*/index
    settings/index
 
 

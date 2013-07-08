@@ -25,6 +25,24 @@ The above example generates the English (US) online help files with English loca
 for the navigation into the `_build/html/0.9/en_US` output directory.
 
 
+Integrating Help for Plugins
+----------------------------
+
+For adding help contents from plugins to the table of contents, index and search pages you can
+place doc files from plugins into the `<lang>/plugins` folder. All the resources for plugin docs need
+to reside in a dedicated folder for the plugin which at least contains an `index.rst` with the TOC
+of the plugin help. Here's an example folder structure:
+
+    en_us/
+        plugins/
+            <pluginA>
+                _static/screenshot.png
+                index.rst
+                moredoc.rst
+            <pluginB>
+                index.rst
+
+
 Translating
 -----------
 
