@@ -35,7 +35,7 @@ The creation action can be aborted by pressing the <Esc> key while entering the 
 Assigning Contacts to Groups
 ----------------------------
 
-Contacts can be assigned to groups my dragging & dropping them with the mouse. Select one or multiple contacts in the list
+Contacts can be assigned to groups by dragging & dropping them with the mouse. Select one or multiple contacts in the list
 and drop them onto the desired group. It's a simple as that.
 
 
@@ -112,6 +112,14 @@ or a contact group. Click it to open the compose screen with the selected contac
 
 To start writing an email to a single contact, you can also click the email address in the :ref:`addressbook-contact-details`
 area on the right.
+
+
+Copying Contacts
+----------------
+
+Contacts can be copied from one directory to another in a similar way as assigning them to groups. Simply drag one
+or multiple selected contacts with the mouse and drop them onto the target directory. Please note that some properties
+might be saved into other fields or not be copied at all if the address directories have different schemas.
 
 
 .. index:: Preview

@@ -28,6 +28,7 @@ Beside the main tasks, the button to terminate the current session (*Logout*) is
 
 
 .. index:: Status
+.. _ui-statusbar:
 
 (2) Status Display
 ------------------
