@@ -10,8 +10,10 @@ The *Settings* task holds all the switches and panels to configure your personal
 
 .. toctree::
    :maxdepth: 2
+   :glob:
 
    preferences
    folders
    identities
+   ../plugins/*/settings
 
