@@ -82,3 +82,18 @@ screen will then load the next message in the list of the current folder.
         In order to activate the archiving functions you first need to select a folder as archive
         in the :ref:`Preferences > Special Folders <settings-prefs-folders>` settings.
 
+
+.. index:: Delete Message
+
+Delete Messages
+---------------
+
+The selected message(s) can be deleted from the current folder by clicking the *Delete* icon in the toolbar
+or by hitting the <Del> (or Backspace on Mac) key on your keybaord. This will by default move the message to the
+Trash folder and not delete it right away unless you do this for messages in the Trash folder. In order to
+delete the message in first place, hold down the Shift key on the keyboard while clicking the *Delete* button
+or when pressing <Del>.
+
+There's a preference in :ref:`Settings > Preferences > Server Settings <settings-prefs-server>` where
+the default behavior of message deletion can be changed.
+

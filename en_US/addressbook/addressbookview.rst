@@ -88,6 +88,8 @@ in the list header to navigate through the pages.
     Hint: you can change the way and order the contacts are listed here in the :ref:`Address Book <settings-prefs-addressbook>` section
     of the user preferences.
 
+.. index:: Delete Contact
+
 Contact List Actions
 --------------------
 
