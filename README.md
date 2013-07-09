@@ -33,13 +33,13 @@ place doc files from plugins into the `<lang>/plugins` folder. All the resources
 to reside in a dedicated folder for the plugin which at least contains an `index.rst` with the TOC
 of the plugin help. Here's an example folder structure:
 
-    en_us/
-        plugins/
-            <pluginA>
+    en_US/
+        _plugins/
+            <plugin-A>
                 _static/screenshot.png
                 index.rst
                 moredoc.rst
-            <pluginB>
+            <plugin-B>
                 index.rst
 
 

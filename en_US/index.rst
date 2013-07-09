@@ -15,7 +15,7 @@ Table Of Contents
    overview
    mail/index
    addressbook/index
-   plugins/*/index
+   _plugins/*/index
    settings/index
 
 
