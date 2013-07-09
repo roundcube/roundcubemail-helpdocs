@@ -8,10 +8,10 @@ Managing Folders
 This section of the settings task allows you to manage the tree of mailbox folders.
 
 The hierarchical folder tree is displayed in the middle list widget where you can select a single
-folders by clicking it. Folder information and some settings then appear in the right properties pane.
+folder by clicking it. Folder information and some settings then appear in the right properties pane.
 
-There might be folders which are grayed out and which cannot be editor nor deleted or renamed. Such folders are
-"virtual" folders which are there for structuring but which cannot contain any messages.
+There might be folders which are grayed out and which cannot be edited nor deleted or renamed. Such folders are
+"virtual" folders which are only there for structuring but which cannot contain any messages.
 
 Some :ref:`Special System Folders <mail-organize>` cannot be renamed or unsubscribed because they have special purposes
 and are used by system processes.
@@ -26,7 +26,7 @@ Subscribe to Folders
 In the folders list, the right column indicates whether a folder is subscribed and by clicking the checkbox,
 the subscription for that folder can be changed.
 
-Subscribed folders appear in the :ref:`email view <mail-folders>` whereas unsubscribed are hidden and only
+Subscribed folders appear in the :ref:`email view <mail-folders>` whereas unsubscribed ones are hidden and only
 visible here.
 
 

@@ -1,9 +1,9 @@
 .. index:: Create Contact, Edit Contact
 .. _addressbook-contact-edit:
 
-************************
+*****************************
 Creating and Editing Contacts
-************************
+*****************************
 
 Select a contact from the contacts list and then press the *Edit contact* button
 in the contact properties area on the right to start editing it.

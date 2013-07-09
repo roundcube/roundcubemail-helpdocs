@@ -53,8 +53,8 @@ Additional actions can be found by clicking the *More* button (if available).
 
 (4) List Operations
 -------------------
-The icons in the footer area of a list, provide actions that influencing the list above or the currently
-selected element of the list respectively.
+The icons in the footer area of a list provide actions that influence the list above or the currently
+selected element of the list respectively. The gear icon usually opens a menu with additional actions.
 
 
 .. index:: Search

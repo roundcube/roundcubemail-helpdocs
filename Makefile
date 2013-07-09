@@ -6,7 +6,7 @@ SOURCE        = en_US
 VERSION       = 0.9
 LANGUAGE      = en
 # use tags to include documentation for specific plugins
-TAGS          = -t archive
+TAGS          = -t archive -t acl
 SPHINXOPTS    = -c . -D language=$(LANGUAGE)
 SPHINXBUILD   = sphinx-build
 BUILDDIR      = _build
