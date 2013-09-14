@@ -135,7 +135,7 @@ the preview pane.
 
 Shortcut Functions
 ------------------
-In the upper right corder of the preview pane are buttons for often used actions like reply or forward the message.
+In the upper right corner of the preview pane are buttons for often used actions like reply or forward the message.
 
 The rightmost icon |button-extwin| will open the message in a new window to have a full-size view on the entire message.
 

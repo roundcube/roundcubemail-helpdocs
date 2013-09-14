@@ -10,6 +10,8 @@ for temporary or final storage. You manage the folders in the :ref:`settings sec
 freely choose the hierarchy of the folder tree.
 
 
+.. _mail-organize-special-folders:
+
 Special System Folders
 ----------------------
 

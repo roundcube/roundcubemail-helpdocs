@@ -28,6 +28,7 @@ resume composition.
 
 
 .. index:: Reply
+.. _mail-compose-reply:
 
 Reply to a Message
 ^^^^^^^^^^^^^^^^^^
@@ -40,6 +41,7 @@ While *Reply* will copy the sender address into *To* field, *Reply all* will add
 message to the *To* and *Cc* fields.
 
 .. index:: Forward
+.. _mail-compose-forward:
 
 Forwarding Messages
 ^^^^^^^^^^^^^^^^^^^

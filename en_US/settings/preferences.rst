@@ -24,13 +24,13 @@ User Interface
 
 **Time zone**
     Dates displayed anywhere (e.g. when a message is sent) will be automatically translated into your local time zone.
-    Set this to *Auto* to let the system use your computer's time zone settings or select a sepecif time zone from the list.
+    Set this to *Auto* to let the system use your computer's time zone settings or select a specific time zone from the list.
 
 **Time format**
     Select how time (hours, minutes) are displayed.
 
 **Date format**
-    Select the format how dates shoudl be displayed.
+    Select the format how dates should be displayed.
 
 **Pretty dates**
     With this option checked, dates close to today will be translated into relative terms like "Today", "Yesterday", etc.
@@ -39,7 +39,7 @@ User Interface
     Set the interval where you want the system to check for updates (e.g. for new messages arrived)
 
 **Interface Skin**
-    Choose the visual apearance of the user interface from a selection of themes.
+    Choose the visual appearance of the user interface from a selection of themes.
 
 **Browser options**
     You can register this webmail app to be opened when ever you click an email link somewhere on the web.
@@ -61,11 +61,11 @@ Mailbox View
 
 **Expand message threads**
     When listing messages in :ref:`threads <mail-list-thread>`, this option controls how conversation groups are
-    eypanded in the list.
+    expanded in the list.
 
 **Rows per page**
     The messages list displays this number of messages at a time (aka a "page"). Increasing this number may result
-    in longer loading times when opeaning a mailbox folder.
+    in longer loading times when opening a mailbox folder.
 
 **Check all folders for new messages**
     By default, only the Inbox is checked for new messages periodically. If you have server-side filters installed
@@ -87,7 +87,7 @@ Displaying Messages
 
 **Display remote inline images**
     Formatted (HTML) messages can contain references to images which have to be loaded from a remote server.
-    That can harm your privacy and reveil to the sender that you opened the message. This technique is often used
+    That can harm your privacy and reveal to the sender that you opened the message. This technique is often used
     by spammers to verify that your email address works and you can be sent more spam.
 
 **Display attached images below the message**
@@ -103,27 +103,78 @@ Displaying Messages
 Composing Messages
 ------------------
 
-TBD.
+**Compose in a new window**
+    With this option checked, the message compose form will open in a new window instead of
+    the current browser window/tab.
 
+**Display HTML**
+    Check this option to enable the rich text (HTML) editor when start to compose a new message.
+    This is only the default setting for HTML message composing. It can be :ref:`toggled <mail-compose-html>`
+    at any time while composing.
+
+**Automatically save draft**
+    While you write a new message, a copy will be saved to the Drafts folder ever few minutes.
+    Select the interval or disable the automatic saving here.
+
+**Always request a return receipt**
+    Activate the "Return receipt" :ref:`sending option <mail-compose-options>` by default for new messages.
+
+**Always request a delivery status notification**
+    Activate the "Delivery status notification" :ref:`sending option <mail-compose-options>` by default for new messages.
+
+**Place replies in the folder of the message being replied to**
+    Choose the current folder for saving the reply message to instead of saving it to the "Sent" folder.
+
+**When replying**
+    This option controls whether and where to place the quoted original text when replying to a message.
+
+**Messages forwarding**
+    Controls the :ref:`mode <mail-compose-forward>` how messages are forwarded by default when
+    clicking the *Forward* button without choosing a forward mode.
+
+**Default font of HTML message**
+    When writing a formatted (HTML) message, this font is used for the default text formatting.
+
+**Automatically add signature**
+    Select in which cases the signature text from your sender identity is added to a new message.
+
+**Spellcheck Options**
+    These checkboxes control the behavior of the spell checker function.
 
 .. _settings-prefs-addressbook:
 
 Address Book
 ------------
 
-TBD.
+**Default address book**
+    Select the default address book where new contacts are saved to when adding them from the mail view.
 
+**List contacts as**
+    Choose how names are displayed in the contacts list.
+
+**Sorting column**
+    Select the contact attribute used for sorting the contacts in the list.
+
+**Rows per page**
+    The number of contacts displayed at a time (aka a "page") in the contacts list.
+
+**Skip alternative email addresses in autocompletion**
+    With this option checked, every contact will only appear once in the autocompletion list
+    that appears when you start typing in the recipient field. The first email address of the 
+    selected contact will then be inserted. If disabled, all email addresses of a matching contact
+    are displayed for selection.
 
 .. _settings-prefs-folders:
 
 Special Folders
 ---------------
 
-TBD.
+Some folders have :ref:`special purposes <mail-organize-special-folders>` and are used by system processes to store messages.
+This form allows you to choose which folders are used to store *Drafts*, *Sent* or deleted messages (*Trash*).
 
 .. only:: archive
 
-    
+    When hitting the *Archive* button in the mail view, the selected messages are move to this folder.
 
 
 .. _settings-prefs-server:
@@ -131,7 +182,29 @@ TBD.
 Server Settings
 ---------------
 
-TBD.
+This section provides more advanced settings that control how messages are treated by the email server.
 
+**Mark the message as read on delete**
+    With this option enabled, unread messages are also flagged as read when deleting them right away.
 
-.. only:: calendar
+**Flag the message for deletion instead of delete**
+    Email messages can be flagged as deleted first before they're finally removed from a folder. That also allows to "undelete"
+    them later on. In order to finally delete them, use the *Compact* command from the :ref:`mail-folders` operations menu.
+
+**Do not show deleted messages**
+    This option suppresses messages flagged as deleted from being listed.
+
+**If moving messages to Trash fails, delete them**
+    Moving to Trash can fail if the Trash folder isn't selected or over quota. With this option enabled, messages are
+    deleted from the current folder when you attempt to move them to Trash.
+
+**Directly delete messages in Junk**
+    Messages in the *Junk* folder are also move to the *Trash* first when deleting them.
+    Skip that step by enabling this option.
+
+**Clear Trash on logout**
+    As the option name says, this will empty the Trash folder when you :ref:`terminate the session <logout>`.
+
+**Compact Inbox on logout**
+    This will remove all messages flagged for deletion from the Inbox when you :ref:`log-off <logout>`.
+

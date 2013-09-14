@@ -1,7 +1,7 @@
 This directory holds references to en_US documentation files from Roundcube plugins.
 Symlink the `en_US` directory from the according plugin documentation source here
-and name with the name of the plugin itself. Each plugin has to be represented as a
-directory in this folder containing an `index.rst` file with the toctree.
+and name it with the name of the plugin itself. Each plugin has to be represented
+as a directory in this folder containing an `index.rst` file with the toctree.
 
 Example:
 
