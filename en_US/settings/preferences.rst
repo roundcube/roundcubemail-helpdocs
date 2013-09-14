@@ -174,7 +174,7 @@ This form allows you to choose which folders are used to store *Drafts*, *Sent* 
 
 .. only:: archive
 
-    When hitting the *Archive* button in the mail view, the selected messages are move to this folder.
+    When hitting the *Archive* button in the mail view, the selected messages are moved to this folder.
 
 
 .. _settings-prefs-server:
