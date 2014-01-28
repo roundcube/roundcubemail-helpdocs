@@ -56,7 +56,7 @@ Even existing folder can be made a subfolder of another ore or move to top level
 
 To move a folder simply drag & drop it with the mouse from the list onto the desired parent folder.
 
-Alliteratively the parent folder can be selected in the properties form in the right and by hitting *Save*
+Alternatively the parent folder can be selected in the properties form in the right and by hitting *Save*
 the currently selected folder is moved to its new parent.
 
 

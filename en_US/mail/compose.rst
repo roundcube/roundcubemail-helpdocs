@@ -135,6 +135,44 @@ When in HTML editor mode, you can embed images right into the message text. And 
 5. Resize the image in the text area if necessary
 
 
+.. index:: Responses, Boilerplate
+.. _mail-compose-responses:
+
+Using Prepared Responses
+------------------------
+
+Saved responses can be handy when repeatedly writing emails with the same text, e.g. when 
+answering support requests or sending invitations with always the same introduction.
+
+The *Responses* button in the compose screen toolbar holds your personal set of "canned responses"
+which can be inserted into the message body by a single click. Note: these are only text snippets
+that can be inserted anywhere and **not message templates** with subject, text or attachments.
+
+Insert a Response
+^^^^^^^^^^^^^^^^^
+
+Clicking the *Responses* button opens a menu that lists all the saved boilerplate texts by name.
+Simply click on one and the saved text will be inserted into the message at the position of
+the cursor, exactly where you stopped typing. If you selected some part of the message text
+with the mouse before, the saved response text will replace the selection.
+
+Save a new Response
+^^^^^^^^^^^^^^^^^^^
+
+When typing the same text for the second time already you might want to store it for
+future email writing. In order to save a new response, first select the section of the message
+text that should be saved with the mouse and click *Save new response* from the menu behind
+the *Responses* button. This will open a dialog where you can review the text before saving.
+Give the new response a snappy name and click *Save*. It's now added to the list of snippets
+to be inserted.
+
+Edit Responses
+^^^^^^^^^^^^^^
+
+Switch to the :ref:`Settings section <settings-responses>` where you can manage
+all the saved responses.
+
+
 .. index:: Priority, Receipt, DSN
 .. _mail-compose-options:
 

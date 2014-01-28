@@ -41,7 +41,13 @@ User Interface
 **Interface Skin**
     Choose the visual appearance of the user interface from a selection of themes.
 
-**Browser options**
+**Handle popups as standard windows**
+    When Roundcube opens messages or the compose form in a new window, this can either be a detached
+    window with a smaller size and without toolbar buttons or, with this option activated, be a
+    regular browser window or even just anther tab in your current window. If enabled, all windows
+    opened by the webmail application obey the settings of your browser.
+
+**Register protocol handler**
     You can register this webmail app to be opened when ever you click an email link somewhere on the web.
 
 
@@ -97,6 +103,15 @@ Displaying Messages
     Controls whether the screen should jump to the next message in the list when opening an email message
     (not in the preview pane) and then move or delete it.
 
+Advanced options
+^^^^^^^^^^^^^^^^
+
+**Default Character Set**
+    Some email systems do not specify the character set when sending messages. In such rare cases
+    the receiver (your webmail application) has to make an assumption how to display the special
+    characters (e.g. éäç) and therefore uses this setting. Select the character set/language the
+    majority of your email correspondents use.
+
 
 .. _settings-prefs-compose:
 
@@ -107,7 +122,7 @@ Composing Messages
     With this option checked, the message compose form will open in a new window instead of
     the current browser window/tab.
 
-**Display HTML**
+**Compose HTML messages**
     Check this option to enable the rich text (HTML) editor when start to compose a new message.
     This is only the default setting for HTML message composing. It can be :ref:`toggled <mail-compose-html>`
     at any time while composing.
@@ -133,13 +148,32 @@ Composing Messages
     clicking the *Forward* button without choosing a forward mode.
 
 **Default font of HTML message**
-    When writing a formatted (HTML) message, this font is used for the default text formatting.
+    When writing a formatted (HTML) message, this font face and size is used for the default text formatting.
+
+**Default action of the "Reply all" button**
+    When replying to messages coming from mailing lists, this setting controls how to reply to them.
 
 **Automatically add signature**
     Select in which cases the signature text from your sender identity is added to a new message.
 
+**When replying remove original signature**
+    As the name suggests, this setting removes detected signatures from the original message
+    when citing it in the reply.
+
 **Spellcheck Options**
     These checkboxes control the behavior of the spell checker function.
+
+Advanced options
+^^^^^^^^^^^^^^^^
+
+**Attachment names**
+    Sometimes receivers of your email messages have difficulties to correctly see the names of attached files.
+    Adjust this setting in case you get complaints about garbled attachment names.
+
+**Use MIME encoding for 8-bit characters**
+    This enables sending message texts the "safe" way but slightly increases the amount of data to be sent.
+    Activate this option in case people cannot properly read message you send out.
+
 
 .. _settings-prefs-addressbook:
 
@@ -172,9 +206,21 @@ Special Folders
 Some folders have :ref:`special purposes <mail-organize-special-folders>` and are used by system processes to store messages.
 This form allows you to choose which folders are used to store *Drafts*, *Sent* or deleted messages (*Trash*).
 
+**Show real names for special folders**
+    With this setting enabled, the original names of the assigned special folders are displayed in the
+    folders list instead of localized names.
+
 .. only:: archive
 
     When hitting the *Archive* button in the mail view, the selected messages are moved to this folder.
+
+    **Divide archive by**
+        This option allows you to organize your archive folder in various ways.
+        The selected message(s) can be filed into sub-folders of the archive according
+        the sent date, the sender's email address or the folder the message is moved from.
+
+        When set to *None*, all messages will be stored in the Archive folder without any sub-folders
+        being created.
 
 
 .. _settings-prefs-server:
