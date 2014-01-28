@@ -55,6 +55,8 @@ Instead of sorting messages by their date or subject, conversations spawning mul
 Use the switch buttons on the left in the message list footer to toggle between *List* or *Threads* view. When in thread mode, groups
 of messages can be collapsed or expanded using the arrow icons in the leftmost column of the message list.
 
+.. image:: ../_static/_skin/listmode-switch.png
+
 
 .. index:: Columns
 .. _mail-list-columns:
@@ -103,6 +105,9 @@ The number of unread messages in each folder is displayed at the right border of
 Click a folder in the list to show the contained messages in the messages list on the right. The currently selected folder
 is highlighted in the list.
 
+Folders with hidden subfolders are indicated with a small [+] icon which can be clocked to expand or collapse the
+subtree of folders.
+
 .. index:: Compact, Empty
 
 Folder operations
@@ -120,6 +125,17 @@ Most of the actions in the menu affect the currently selected folder.
 **Manage folders**
   This menu item will take you the :ref:`settings section <settings-folders>` when you can manage the mailbox folders.
   This is where you can create, delete, rename or re-organize your email folders.
+
+
+.. index:: Quota
+
+Quota display
+-------------
+
+If your email account is limited by a maximum size, the quota display located in the footer of the folders list
+indicates the current usage of the available disk space. Move the mouse pointer over the percentage display
+to see the real numbers of your quota usage.
+
 
 
 .. index:: Preview

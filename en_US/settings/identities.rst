@@ -26,7 +26,8 @@ This first block contains general properties of the selected sender identity:
 .. container:: hint
 
     Hint: The Email field might not be visible or editable. This is no malfunction but
-    a restriction set by the server administrator.
+    a restriction set by the server administrator to prevent users from sending email
+    with faked sender addresses.
 
 **Organization**
     Some email programs do display the organization field when receiving messages from you
