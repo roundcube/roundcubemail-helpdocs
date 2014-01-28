@@ -76,13 +76,13 @@ screen will then load the next message in the list of the current folder.
     If your webmail system has the Archive plugin installed, a button labelled *Archive* appears in the
     toolbar email task. This button moves the selected message(s) to the archive folder with one single click
 
+    You can :ref:`configure <settings-prefs-folders>` how the archive folder is organized and divided into 
+    subfolders either by date, sender or originating folder.
+
     .. container:: hint
 
         In order to activate the archiving functions you first need to select a folder as archive
         in the :ref:`Preferences > Special Folders <settings-prefs-folders>` settings.
-
-..    You can :ref:`configure <settings-prefs-folders>` how the archive folder is organized and divided into 
-..    subfolders either by date, sender or originating folder.
 
 
 .. index:: Delete Message

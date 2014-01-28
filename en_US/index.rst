@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Roundcube Webmail User Guide for Version 0.9.x
+Roundcube Webmail User Guide for Version 1.0
 
 
 *****************

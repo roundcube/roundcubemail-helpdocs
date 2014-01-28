@@ -3,7 +3,7 @@
 
 # You can set these variables from the command line.
 SOURCE        = en_US
-VERSION       = 0.9
+VERSION       = 1.0
 LANGUAGE      = en
 # use tags to include documentation for specific plugins
 TAGS          = -t archive -t acl
