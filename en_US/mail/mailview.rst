@@ -67,10 +67,8 @@ The columns displayed in the list can be adjusted by clicking the *List Options*
 This opens a dialog where you can select which columns to display and how to sort messages. Click *Save* to apply the changes and to
 close the dialog again.
 
-.. container:: hint
-
-  Hint: the "From/To" column is a magic column that displays the sender of the message *or* the recipient when you switch to the Sent or
-  Drafts folder.
+.. note::  the "From/To" column is a magic column that displays the sender of the message *or* the recipient when you switch
+    to the Sent or Drafts folder.
 
 The order of the columns in list can also be adjusted by dragging the header of a specific column with the mouse and dropping it at
 the position you'd like it appear.

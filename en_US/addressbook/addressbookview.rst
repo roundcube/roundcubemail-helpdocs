@@ -83,9 +83,7 @@ The contacts of the selected address directory or group are presented in this li
 in the particular directory or group is stated right below the list as well as the set that is currently displayed. Use the arrow buttons
 in the list header to navigate through the pages.
 
-.. container:: hint
-
-    Hint: you can change the way and order the contacts are listed here in the :ref:`Address Book <settings-prefs-addressbook>` section
+.. note::  you can change the way and order the contacts are listed here in the :ref:`Address Book <settings-prefs-addressbook>` section
     of the user preferences.
 
 .. index:: Delete Contact

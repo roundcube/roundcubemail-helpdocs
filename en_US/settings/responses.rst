@@ -16,9 +16,7 @@ The middle pane displays a list of saved responses. Select one to see
 its name and text in the form on the right. You can right away edit
 both and save the changes by clicking the *Save* button.
 
-.. container:: hint
-
-    Hint: If the fields are not editable and there's no *Save* button below,
+.. note::  If the fields are not editable and there's no *Save* button below,
     this is a global response defined by the system administrator which
     cannot be edited.
 

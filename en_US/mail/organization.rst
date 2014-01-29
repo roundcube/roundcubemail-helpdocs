@@ -79,9 +79,7 @@ screen will then load the next message in the list of the current folder.
     You can :ref:`configure <settings-prefs-folders>` how the archive folder is organized and divided into 
     subfolders either by date, sender or originating folder.
 
-    .. container:: hint
-
-        In order to activate the archiving functions you first need to select a folder as archive
+    .. note::     In order to activate the archiving functions you first need to select a folder as archive
         in the :ref:`Preferences > Special Folders <settings-prefs-folders>` settings.
 
 

@@ -8,9 +8,7 @@ Preferences
 The user preferences let you adjust various options and settings that control the behavior and the UI of the webmail application.
 The numerous settings are grouped by the following sections:
 
-.. container:: hint
-
-    Hint: after changing preferences, don't forget to save them by clicking the *Save* button below the settings form.
+.. note::  after changing preferences, don't forget to save them by clicking the *Save* button below the settings form.
 
 
 .. _settings-prefs-ui:

@@ -28,9 +28,7 @@ Add more contact properties
 To add another property field, select one from the *Add field...* drop-down menu located below the form.
 The similar drop-down below the name fields in the header lets you add more name-related fields.
 
-.. container:: hint
-
-    Hint: depending on what directory the contact belongs so, the list of properties you can add
+.. note::  depending on what directory the contact belongs so, the list of properties you can add
     to a contact can differ.
 
 

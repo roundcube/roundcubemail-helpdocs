@@ -42,9 +42,7 @@ Create a new Folder
 4. Click the *Save* button below the form to finally create it
 
 
-.. container:: hint
-
-    Hint: the *Parent folder* field is already pre-selected whith the folder currently selected in the
+.. note::  the *Parent folder* field is already pre-selected whith the folder currently selected in the
     folders list on the left.
 
 

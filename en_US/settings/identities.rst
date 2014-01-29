@@ -23,9 +23,7 @@ This first block contains general properties of the selected sender identity:
     Please enter a valid email address that is handled by your Roundcube email account.
     Otherwise message sending might fail because of an invalid sender address.
 
-.. container:: hint
-
-    Hint: The Email field might not be visible or editable. This is no malfunction but
+.. note::  The Email field might not be visible or editable. This is no malfunction but
     a restriction set by the server administrator to prevent users from sending email
     with faked sender addresses.
 
