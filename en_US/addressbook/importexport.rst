@@ -33,3 +33,13 @@ Contacts from Roundcube address books are exported in the `vCard <http://en.wiki
 3. Choose where to save the exported .vcf file if prompted, otherwise check the "Downloads" folder on your computer
    for a file named "roundcube_contacts.vcf".
 
+The *Export* toolbar button offers the following two options:
+
+**Export all**
+    That's the default action of the button and will pack all contacts currently listed into the vcard file.
+
+**Export selected**
+    If there's one or more contacts selected in the list (do this by holding down the *Shift* or *Ctrl* keys
+    of your keyboard while clicking individual contacts), this option will generate a .vcf file with only the
+    selected contacts.
+
