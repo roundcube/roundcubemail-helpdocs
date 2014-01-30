@@ -210,10 +210,12 @@ div.body h2 {
 }
 div.body h3 {
     font-size: 110%;
+    margin-top: 20px;
     margin-bottom: 0;
 }
 div.body h4 {
     font-size: 100%;
+    margin-top: 20px;
     margin-bottom: 0;
 }
 
@@ -248,6 +250,9 @@ a.headerlink:hover {
 div.body p, div.body dd, div.body li {
     text-align: justify;
     line-height: 130%;
+}
+
+div.body h1, div.body h2 {
     clear: both;
 }
 
@@ -343,7 +348,7 @@ pre {
 tt {
     background-color: #ecf0f3;
     padding: 0 1px 0 1px;
-    font-size: 0.95em;
+    font-size: 1em;
 }
 
 th {

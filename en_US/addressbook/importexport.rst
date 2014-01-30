@@ -1,9 +1,12 @@
 .. index:: Import
 .. _addressbook-import:
 
-******************
+*************
+Import/Export
+*************
+
 Importing Contacts
-******************
+------------------
 
 Contacts can be imported into the Roundcube address books from `vCard <http://en.wikipedia.org/wiki/VCard>`_
 and `CSV <http://en.wikipedia.org/wiki/Comma-separated_values>`_ files.
@@ -22,9 +25,8 @@ and see the imported contacts.
 .. index:: Export
 .. _addressbook-export:
 
-******************
 Exporting Contacts
-******************
+------------------
 
 Contacts from Roundcube address books are exported in the `vCard <http://en.wikipedia.org/wiki/VCard>`_ format only.
 
