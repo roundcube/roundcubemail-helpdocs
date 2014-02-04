@@ -10,9 +10,11 @@ and a rich interface to manage them.
 
 .. toctree::
    :maxdepth: 2
+   :glob:
 
    addressbookview
    editing
    searching
    importexport
+   ../_plugins/*/addressbook
 
