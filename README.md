@@ -19,10 +19,10 @@ This repo already contains the Sphinx project configuration and can be generated
 right away with the following command:
 
 	cd <this-repo-checkout-dir>
-	sphinx-build -b html -c . -d _build/en_US/doctrees -D language=en en_US _build/html/0.9/en_US
+	sphinx-build -b html -c . -d _build/en_US/doctrees -D language=en en_US _build/html/1.0/en_US
 
 The above example generates the English (US) online help files with English localization
-for the navigation into the `_build/html/0.9/en_US` output directory.
+for the navigation into the `_build/html/1.0/en_US` output directory.
 
 
 Integrating Help for Plugins
@@ -49,6 +49,17 @@ Translating
 Volunteers who want to help translating the online help files into another language, please [fork][github-fork]
 this repository and add a folder with your language (e.g. `pt_BR`) and copy the source files from `en_US`
 into it. Once finished, send us a [pull request][github-pull] via github.
+
+
+Skins Support
+-------------
+
+When using screen shots in the help documents, they should match the skin used in the webmail application.
+Therefore, all `_static` directories containing images have subdirectories for skins (e.g. `larry`) and a
+symlink `_skin` pointing to the skin you want to use for rendering the docs.
+
+For easily changing these, have a look at the [setskin.sh](setskin.sh) utility script which updates all
+`_skin` symlinks it finds in the project directory.
 
 
 License
