@@ -89,6 +89,7 @@ Delete Folders
     3. Select the access rights you want to grant for the user
     4. Click *Save* to add the permission
 
+    .. image:: ../_static/_skin/acl-add.png
 
     Edit Access Rights
     ^^^^^^^^^^^^^^^^^^
