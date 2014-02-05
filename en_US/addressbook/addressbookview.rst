@@ -30,7 +30,7 @@ unique name for the new group and hit <Enter> to finally create it.
 The creation action can be aborted by pressing the <Esc> key while entering the group name.
 
 
-.. index:: Assign Groups
+.. index:: Assign Groups, Drag & Drop
 
 Assigning Contacts to Groups
 ----------------------------
