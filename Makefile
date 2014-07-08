@@ -6,7 +6,7 @@ SOURCE        = en_US
 VERSION       = 1.0
 LANGUAGE      = en
 # use tags to include documentation for specific plugins
-TAGS          = -t archive -t acl -t zipdownload
+TAGS          = -t archive -t acl -t zipdownload -t kolab
 SPHINXOPTS    = -c . -D language=$(LANGUAGE)
 SPHINXBUILD   = sphinx-build
 BUILDDIR      = _build
