@@ -9,6 +9,7 @@ The *Email* task provides all functions to read, write and organize email messag
 
 .. toctree::
    :maxdepth: 2
+   :glob:
 
    mailview
    reading

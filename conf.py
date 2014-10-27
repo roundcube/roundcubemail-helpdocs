@@ -11,7 +11,7 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys, os
+import sys, os, glob, imp
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -58,7 +58,6 @@ language = None
 
 # add this substitution to every page
 rst_epilog = """
-.. |skin| replace:: larry
 """
 
 # There are two options for replacing |today|: either, you set today to some
@@ -251,3 +250,31 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+
+# -- Custom Options for Roundcube docs -----------------------------------------
+
+variables = {
+    'skin': 'larry'
+}
+
+# collect variables from plugin configs
+for pathname in glob.glob('./*/_plugins/*/conf.py'):
+    try:
+        conf = imp.load_source('conf', pathname)
+        if hasattr(conf, 'variables'):
+            variables.update(conf.variables)
+        if hasattr(conf, 'tags'):
+            for tag in conf.tags:
+                tags.add(tag)
+        # TODO: merge other config options like rst_prolog, rst_epilog, extensions, etc.
+    except Exception, e:
+        print "Failed to open plugin config file", pathname
+        print e
+
+# add variables as substitutions to the head of each page
+rst_prolog = ""
+for var,repl in variables.items():
+    rst_prolog += "    .. |%s| replace:: %s\n" % (var, repl)
+    rst_prolog += "    .. |%s_bold| replace:: **%s**\n" % (var, repl)
+
