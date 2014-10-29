@@ -16,7 +16,7 @@ import sys, os, glob, imp
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#sys.path.insert(0, os.path.abspath('.'))
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '_ext'))
 
 # -- General configuration -----------------------------------------------------
 
@@ -258,8 +258,13 @@ variables = {
     'skin': 'larry'
 }
 
+config_files = glob.glob('./*/_plugins/*/conf.py')
+
+if os.path.exists('./conf.local.py'):
+    config_files.append(os.path.relpath('./conf.local.py'))
+
 # collect variables from plugin configs
-for pathname in glob.glob('./*/_plugins/*/conf.py'):
+for pathname in config_files:
     try:
         conf = imp.load_source('conf', pathname)
         if hasattr(conf, 'variables'):
@@ -267,14 +272,22 @@ for pathname in glob.glob('./*/_plugins/*/conf.py'):
         if hasattr(conf, 'tags'):
             for tag in conf.tags:
                 tags.add(tag)
-        # TODO: merge other config options like rst_prolog, rst_epilog, extensions, etc.
+        if hasattr(conf, 'extensions'):
+            extensions += conf.extensions
+        for varname in ['project','copyright','version','release']:
+            if hasattr(conf, varname):
+                locals()[varname] = getattr(conf, varname)
+        # TODO: merge other config options like rst_prolog, rst_epilog, etc.
     except Exception, e:
-        print "Failed to open plugin config file", pathname
+        print "Failed to open config file", pathname
         print e
 
 # add variables as substitutions to the head of each page
 rst_prolog = ""
 for var,repl in variables.items():
     rst_prolog += "    .. |%s| replace:: %s\n" % (var, repl)
-    rst_prolog += "    .. |%s_bold| replace:: **%s**\n" % (var, repl)
+    rst_prolog += "    .. |**%s**| replace:: **%s**\n" % (var, repl)
 
+
+# forward variables for substitutions in fancyfigures
+fancyfigure_variables = variables
