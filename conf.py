@@ -258,6 +258,9 @@ variables = {
     'skin': 'larry'
 }
 
+default_tags = []
+custom_tags = False
+
 config_files = glob.glob('./*/_plugins/*/conf.py')
 
 if os.path.exists('./conf.local.py'):
@@ -270,8 +273,11 @@ for pathname in config_files:
         if hasattr(conf, 'variables'):
             variables.update(conf.variables)
         if hasattr(conf, 'tags'):
+            custom_tags = True
             for tag in conf.tags:
                 tags.add(tag)
+        if hasattr(conf, 'module_tags'):
+            default_tags += conf.module_tags
         if hasattr(conf, 'extensions'):
             extensions += conf.extensions
         for varname in ['project','copyright','version','release']:
@@ -281,6 +287,11 @@ for pathname in config_files:
     except Exception, e:
         print "Failed to open config file", pathname
         print e
+
+# add default tags if no custom ones defined
+if not custom_tags:
+    for tag in default_tags:
+        tags.add(tag)
 
 # add variables as substitutions to the head of each page
 rst_prolog = ""
