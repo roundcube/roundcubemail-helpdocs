@@ -147,3 +147,28 @@ msgid ""
 "<settings-prefs-server>` where the default behavior of message deletion can "
 "be changed."
 msgstr ""
+
+#: ../../en_US/mail/organization.rst:77
+msgid "Using the Archive Plugin"
+msgstr ""
+
+#: ../../en_US/mail/organization.rst:79
+msgid ""
+"If your webmail system has the Archive plugin installed, a button labelled "
+"*Archive* appears in the toolbar email task. This button moves the selected "
+"message(s) to the archive folder with one single click"
+msgstr ""
+
+#: ../../en_US/mail/organization.rst:82
+msgid ""
+"You can :ref:`configure <settings-prefs-folders>` how the archive folder is "
+"organized and divided into subfolders either by date, sender or originating "
+"folder."
+msgstr ""
+
+#: ../../en_US/mail/organization.rst:85
+msgid ""
+"In order to activate the archiving functions you first need to select a "
+"folder as archive in the :ref:`Preferences > Special Folders <settings-"
+"prefs-folders>` settings."
+msgstr ""

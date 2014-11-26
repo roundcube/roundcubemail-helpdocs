@@ -573,3 +573,27 @@ msgid ""
 "This will remove all messages flagged for deletion from the Inbox when you "
 ":ref:`log-off <logout>`."
 msgstr ""
+
+#: ../../en_US/settings/preferences.rst:216
+msgid ""
+"When hitting the *Archive* button in the mail view, the selected messages "
+"are moved to this folder."
+msgstr ""
+
+#: ../../en_US/settings/preferences.rst:223
+msgid "**Divide archive by**"
+msgstr ""
+
+#: ../../en_US/settings/preferences.rst:219
+msgid ""
+"This option allows you to organize your archive folder in various ways. The "
+"selected message(s) can be filed into sub-folders of the archive according "
+"the sent date, the sender's email address or the folder the message is moved"
+" from."
+msgstr ""
+
+#: ../../en_US/settings/preferences.rst:223
+msgid ""
+"When set to *None*, all messages will be stored in the Archive folder "
+"without any sub-folders being created."
+msgstr ""

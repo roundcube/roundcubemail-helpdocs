@@ -121,6 +121,72 @@ msgstr ""
 msgid "Open the *Folder Actions* menu in the list footer and click *Delete*"
 msgstr ""
 
-#: ../../en_US/settings/folders.rst:71
+#: ../../en_US/settings/folders.rst:71 ../../en_US/settings/folders.rst:110
 msgid "Confirm the deletion dialog"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:80
+msgid "Share Folders"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:82
+msgid ""
+"Personal folders can be shared with other users of the email server either "
+"for reading only or with fine-grained permissions. Select a folder in the "
+"list and if you're permitted to control sharing for this folder, the sharing"
+" section below the folder properties on the right shows a list of users the "
+"folder is already shared with and their individual access rights."
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:87
+msgid "Grant new Access Rights"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:89
+msgid "Click the *Add entry* button (+) in the sharing list footer"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:90
+msgid ""
+"Enter the username or choose one from the autocompletion menu that appears "
+"when you start typing. Instead of a specific user, permissons can be granted"
+" for all users or guests."
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:92
+msgid "Select the access rights you want to grant for the user"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:93
+msgid "Click *Save* to add the permission"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:98
+msgid "Edit Access Rights"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:100 ../../en_US/settings/folders.rst:108
+msgid "Select the permission entry in the list"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:101
+msgid ""
+"Click *Edit* in the *Access rights actions* menu in the list footer or just "
+"double-click the line"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:102
+msgid "Adjust the Access rights in the dialog that appears"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:103
+msgid "Click *Save* to close the dialog again"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:106
+msgid "Revoke Access Rights"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:109
+msgid "Click *Delete* in the *Access rights actions* menu in the list footer"
 msgstr ""

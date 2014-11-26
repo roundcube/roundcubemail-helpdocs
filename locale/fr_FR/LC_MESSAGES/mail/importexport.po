@@ -76,3 +76,32 @@ msgid ""
 " in the toolbar. Choose where to save the exported .eml file if prompted, "
 "otherwise find the file the \"Downloads\" folder on your computer."
 msgstr ""
+
+#: ../../en_US/mail/importexport.rst:47
+msgid "Download Multiple Messages"
+msgstr ""
+
+#: ../../en_US/mail/importexport.rst:49
+msgid ""
+"Multiple messages will be packed into a Zip file for downloading. Select "
+"individual messages in the :ref:`mail-messages-list` and then follow the "
+"instructions for downloading a single message. You need to unpack the "
+"downloaded .zip archive to access the individual message files."
+msgstr ""
+
+#: ../../en_US/mail/importexport.rst:55
+msgid "Export an Entire Folder"
+msgstr ""
+
+#: ../../en_US/mail/importexport.rst:57
+msgid ""
+"For archiving purposes all messages from a folder can be downloaded as .zip "
+"archive without first selecting them in the list."
+msgstr ""
+
+#: ../../en_US/mail/importexport.rst:60
+msgid ""
+"Switch to the folder you want to export and then select *Download folder* "
+"from the Folder actions menu behind the gear icon in the folders list "
+"footer."
+msgstr ""
