@@ -46,9 +46,8 @@ of the plugin help. Here's an example folder structure:
 Translating
 -----------
 
-Volunteers who want to help translating the online help files into another language, please [fork][github-fork]
-this repository and add a folder with your language (e.g. `pt_BR`) and copy the source files from `en_US`
-into it. Once finished, send us a [pull request][github-pull] via github.
+Volunteers who want to help translating the online help files into another language, please apply
+for a team membership at our [Transifex project][transifex] and start translating online.
 
 
 Skins Support
@@ -82,3 +81,4 @@ under the conditions that
 [github-fork]: https://help.github.com/articles/fork-a-repo
 [github-pull]: https://help.github.com/articles/using-pull-requests
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/3.0/
+[transifex]: https://www.transifex.com/projects/p/roundcube-webmail-help

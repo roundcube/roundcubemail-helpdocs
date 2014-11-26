@@ -56,6 +56,9 @@ release = '1.0'
 # for a list of supported languages.
 language = None
 
+locale_dirs = ['locale/']
+gettext_compact = False
+
 # add this substitution to every page
 rst_epilog = """
 """

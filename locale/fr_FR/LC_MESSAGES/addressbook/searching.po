@@ -1,0 +1,134 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Roundcube Webmail Help 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-26 21:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../en_US/addressbook/searching.rst:9
+msgid "Searching Contacts"
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:11
+msgid ""
+"For searching contacts enter name or email address into the search box above"
+" the in the toolbar area and press <Enter> on your keyboard to start the "
+"search. Search results will be displayed in the contacts list in the middle."
+" The number of contacts mathing your query is displayed in the footer area "
+"of the contacts list and in case the results span multiple pages, use the "
+"arrow button in the list header to brwose through them."
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:16
+msgid ""
+"Reset the search by clicking the *Reset search* icon on the right border of "
+"the search box."
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:18
+msgid ""
+"Searching convers all directories and the results are mixed together form "
+"all sources. Which directory a particular contacts belongs to is displayed "
+"at the top of the contact properties box, right above the contact's picture "
+"and name."
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:24
+msgid "Choose what properties to search"
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:30
+msgid ""
+"Open the search options menu by clicking the search icon left in the search "
+"box. You can select which properties of a contact should be searched for the"
+" entered term. Check *All fields* to search them all."
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:39
+msgid "Advanced Search Form"
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:41
+msgid ""
+"While the simple search box in the toolbar area just searches for the "
+"entered words somewhere in the contact, the advanced search function allows "
+"a more specifc query on the address book."
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:44
+msgid ""
+"Click the *Advanced* toolbar button and the search form appears in the "
+"contact area on the right. Here you can enter search parameters for the "
+"individual contact fields. For example you can search for all contacts named"
+" \"Paul\" (First Name) who are living in \"New York\" (Address)."
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:48
+msgid ""
+"Start the search by pressing the *Search* button below the form. The "
+"contacts list in the middle will show all contacts matching **all** the "
+"criterias entered. If none is listed, the :ref:`Status Display <ui-"
+"statusbar>` will display an according message."
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:57
+msgid "Saved Searches"
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:59
+msgid ""
+"When having access to huge address directories, searching is probably the "
+"preferred way to navigate through them. Beside organizing contacts in "
+"groups, you can also create filters aka \"saved searches\". Such a filter "
+"remembers the parameters used when searching for contacts and executes that "
+"search again when recalled."
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:65
+msgid "Create a Saved Search"
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:67
+msgid ""
+"Search the address book either by using the simple search box or the "
+"advanced search function."
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:68
+msgid ""
+"Select *Save search* from the options menu of the :ref:`Groups <addressbook-"
+"groups>` list on the left."
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:69
+msgid ""
+"Give that saved search a name and press <Enter> on your keyboard to save it."
+" This will add an item to the :ref:`Groups <addressbook-groups>` list on the"
+" left."
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:71
+msgid ""
+"Click it to execute the search again and to see the results in the contacts "
+"list."
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:74
+msgid "Delete a Saved Search"
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:76
+msgid "Select a saved search query in the leftmost pane."
+msgstr ""
+
+#: ../../en_US/addressbook/searching.rst:77
+msgid ""
+"Open the options menu in the list footer and then click *Delete search* to "
+"remove it again. This won't delete any contacts but only the saved filter."
+msgstr ""

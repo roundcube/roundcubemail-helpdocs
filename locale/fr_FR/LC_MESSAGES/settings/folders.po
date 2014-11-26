@@ -1,0 +1,126 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Roundcube Webmail Help 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-26 21:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../en_US/settings/folders.rst:9
+msgid "Managing Folders"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:11
+msgid ""
+"This section of the settings task allows you to manage the tree of mailbox "
+"folders."
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:13
+msgid ""
+"The hierarchical folder tree is displayed in the middle list widget where "
+"you can select a single folder by clicking it. Folder information and some "
+"settings then appear in the right properties pane."
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:16
+msgid ""
+"There might be folders which are grayed out and which cannot be edited nor "
+"deleted or renamed. Such folders are \"virtual\" folders which are only "
+"there for structuring but which cannot contain any messages."
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:19
+msgid ""
+"Some :ref:`Special System Folders <mail-organize>` cannot be renamed or "
+"unsubscribed because they have special purposes and are used by system "
+"processes."
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:27
+msgid "Subscribe to Folders"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:29
+msgid ""
+"In the folders list, the right column indicates whether a folder is "
+"subscribed and by clicking the checkbox, the subscription for that folder "
+"can be changed."
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:32
+msgid ""
+"Subscribed folders appear in the :ref:`email view <mail-folders>` whereas "
+"unsubscribed ones are hidden and only visible here."
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:40
+msgid "Create a new Folder"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:42
+msgid "Click the *Create new Folder* icon (+) in the list footer"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:43
+msgid "Enter a name for the new folder in the properties form on the right"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:44
+msgid "Select a parent folder or --- to create the folder on top level"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:45
+msgid "Click the *Save* button below the form to finally create it"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:48
+msgid ""
+"the *Parent folder* field is already pre-selected whith the folder currently"
+" selected in the folders list on the left."
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:53
+msgid "Manage the Folder Hierarchy"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:55
+msgid ""
+"Folders can be nested to build a hierarchical structure to store your "
+"emails. Even existing folder can be made a subfolder of another ore or move "
+"to top level."
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:58
+msgid ""
+"To move a folder simply drag & drop it with the mouse from the list onto the"
+" desired parent folder."
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:60
+msgid ""
+"Alternatively the parent folder can be selected in the properties form in "
+"the right and by hitting *Save* the currently selected folder is moved to "
+"its new parent."
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:67
+msgid "Delete Folders"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:69
+msgid "Select a folder in the list"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:70
+msgid "Open the *Folder Actions* menu in the list footer and click *Delete*"
+msgstr ""
+
+#: ../../en_US/settings/folders.rst:71
+msgid "Confirm the deletion dialog"
+msgstr ""
