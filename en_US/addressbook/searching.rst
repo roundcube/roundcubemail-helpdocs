@@ -12,8 +12,8 @@ span multiple pages, use the arrow button in the list header to brwose through t
 
 Reset the search by clicking the *Reset search* icon on the right border of the search box.
 
-Searching convers all directories and the results are mixed together form all sources.
-Which directory a particular contacts belongs to is displayed at the top of the contact properties box, right above
+Searching covers all directories and the results are mixed together from all sources.
+Which directory a particular contact belongs to is displayed at the top of the contact properties box, right above
 the contact's picture and name.
 
 
