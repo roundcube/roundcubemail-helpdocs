@@ -12,7 +12,7 @@ and `Mbox <https://en.wikipedia.org/wiki/Mbox>`_ (.mbox) which are both supporte
 Importing Email Messages
 ------------------------
 
-One multiple files with either MIME or Mbox data can be uploaded to add email messages
+One or multiple files with either MIME or Mbox data can be uploaded to add email messages
 to the currently selected folder:
 
 1. Click the folder where the imported messages should be added.
@@ -34,9 +34,9 @@ or backup. When exporting, messages will be saved as single .eml files.
 Download a Single Message
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To download an email message, select one first a message first in the :ref:`mail-messages-list`
+To download an email message, first select a message in the :ref:`mail-messages-list`
 and then choose *Download (.eml)* from the *More* menu in the toolbar. Choose where to save the
-exported .eml file if prompted, otherwise find the file the "Downloads" folder on your computer.
+exported .eml file if prompted, otherwise find the file in the "Downloads" folder on your computer.
 
 .. only:: zipdownload
 

@@ -20,7 +20,7 @@ Save it as *Draft* (toolbar icon) if the message is not yet complete and you'd l
 at a later time. The email will be stored in the *Drafts* folder and can be double-clicked there in order to
 resume composition.
 
-.. note::  while composing a message, copies are periodically saved to the drafts folder to avoid unintentional loss.
+.. note::  While composing a message, copies are periodically saved to the drafts folder to avoid unintentional loss.
     In case the session terminates unexpectedly or your computer or browser crashes, you'll find a copy of the message
     on the *Drafts* folder. You can configure the automatic saving interval in the :ref:`User Preferences <settings-prefs-compose>`.
 
@@ -128,7 +128,7 @@ When in HTML editor mode, you can embed images right into the message text. And 
 
 1. Add the image as :ref:`attachment <mail-compose-attachments>` to the message.
 2. Click the *Insert/Edit Image* icon in the editor's toolbar
-3. Select the image form the *Image List* drop-down menu in the dialog
+3. Select the image from the *Image List* drop-down menu in the dialog
 4. Hit the *Insert* button
 5. Resize the image in the text area if necessary
 
@@ -159,7 +159,7 @@ Save a new Response
 
 When typing the same text for the second time already you might want to store it for
 future email writing. In order to save a new response, first select the section of the message
-text that should be saved with the mouse and click *Save new response* from the menu behind
+text that should be saved with the mouse and click *Create new response* from the menu behind
 the *Responses* button. This will open a dialog where you can review the text before saving.
 Give the new response a snappy name and click *Save*. It's now added to the list of snippets
 to be inserted.
