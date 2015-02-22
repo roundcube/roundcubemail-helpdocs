@@ -60,16 +60,21 @@ Generating Translated Files
 
 1. Pull translated `.po` files from Transifex, for example for the French language:
 
+	```
 	tx pull -f fr
+	```
 
 2. Compile `.mo` files:
 
+	```
 	sphinx-intl build
+	```
 
 3. Run Sphinx to build the localized docs by using the LANGUAGE parameter:
 
+	```
 	make LANGUAGE=fr html
-
+	```
 
 Skins Support
 -------------
