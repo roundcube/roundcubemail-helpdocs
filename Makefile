@@ -5,10 +5,10 @@
 SOURCE        = en_US
 VERSION       = 1.0
 LANGUAGE      = en
-INTL_LOCALES  = -l de_DE -l de_CH -l fr_FR
+INTL_LOCALES  = -l de -l fr -l sk
 # use tags to include documentation for specific plugins
 TAGS          = -t archive -t acl -t zipdownload -t kolab
-SPHINXOPTS    = -c . -D language=$(LANGUAGE)
+SPHINXOPTS    = -c . -D language='$(LANGUAGE)' -D version='$(VERSION)' -D release='$(VERSION)'
 SPHINXBUILD   = sphinx-build
 SPHINXINTL    = sphinx-intl
 BUILDDIR      = _build
@@ -23,7 +23,7 @@ clean:
 	mkdir -p $(BUILDDIR)/locale/_plugins
 
 html: conf.py _static/default.css
-	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(SOURCE) $(BUILDDIR)/html/$(VERSION)/$(SOURCE)
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(SOURCE) $(BUILDDIR)/html/$(VERSION)/$(LANGUAGE)
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html/$(VERSION)/$(SOURCE)."
 
@@ -35,8 +35,8 @@ gettext:
 
 update-txconfig-resources:
 	@echo "Removing _plugins locale files..."
-	rm -rf locale/*/LC_MESSAGES/_plugins*
-	rm -rf $(BUILDDIR)/locale/_plugins*
+	rm -rf locale/*/LC_MESSAGES/_plugins/*
+	rm -rf $(BUILDDIR)/locale/_plugins/*
 	$(SPHINXINTL) update-txconfig-resources --transifex-project-name roundcube-webmail-help -p $(BUILDDIR)/locale -d locale
 	@echo
 	@echo "Transifex resources have been updated."

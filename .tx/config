@@ -1,6 +1,6 @@
 [main]
 host = https://www.transifex.com
-lang_map = be: be_BE, sr: sr_CS, fa: fa_AF, lb: lb_LU, fr: fr_FR
+lang_map = sk_SK: sk, de_DE: de
 type = PO
 
 [roundcube-webmail-help.index]

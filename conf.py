@@ -16,7 +16,10 @@ import sys, os, glob, imp
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '_ext'))
+try:
+    sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '_ext'))
+except:
+    sys.path.append(os.path.join(os.getcwd(), '_ext'))
 
 # -- General configuration -----------------------------------------------------
 
@@ -56,7 +59,7 @@ release = '1.0'
 # for a list of supported languages.
 language = None
 
-locale_dirs = ['locale/']
+locale_dirs = ['../locale']
 gettext_compact = False
 
 # add this substitution to every page
@@ -71,7 +74,7 @@ rst_epilog = """
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = ['_build','*.off/*']
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None

@@ -49,6 +49,27 @@ Translating
 Volunteers who want to help translating the online help files into another language, please apply
 for a team membership at our [Transifex project][transifex] and start translating online.
 
+Using Transifex is really easy. Should you still have problems to understand one thing or the other,
+the [Transifex Translator Guide][transifex-guide] might help you to get up to speed more quickly.
+
+[![Translation Statistics][transifex-stats]][transifex]
+
+
+Generating Translated Files
+---------------------------
+
+1. Pull translated `.po` files from Transifex, for example for the French language:
+
+	tx pull -f fr
+
+2. Compile `.mo` files:
+
+	sphinx-intl build
+
+3. Run Sphinx to build the localized docs by using the LANGUAGE parameter:
+
+	make LANGUAGE=fr html
+
 
 Skins Support
 -------------
@@ -82,3 +103,5 @@ under the conditions that
 [github-pull]: https://help.github.com/articles/using-pull-requests
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/3.0/
 [transifex]: https://www.transifex.com/projects/p/roundcube-webmail-help
+[transifex-guide]: http://docs.transifex.com/guides/translators
+[transifex-stats]: https://www.transifex.com/projects/p/roundcube-webmail-help/chart/image_png
