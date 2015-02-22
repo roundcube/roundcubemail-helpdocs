@@ -14,7 +14,7 @@ According to your settings, this list only displays a limited number of messages
 to browse through the multiple "pages".
 
 The application periodically checks for new messages and will update the display if new emails arrived. You can force this check manually
-by clicking the *Refresh* button in mail view the toolbar.
+by clicking the *Refresh* button in the email view toolbar.
 
 
 .. index:: Read

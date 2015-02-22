@@ -5,7 +5,7 @@
 Organizing your Email Messages
 ==============================
 
-The :ref:`folder list <mail-folders>` in the mail view lists all folder that can be used to sort mails into
+The :ref:`folder list <mail-folders>` in the email view lists all folder that can be used to sort emails into
 for temporary or final storage. You manage the folders in the :ref:`settings section <settings-folders>` and
 freely choose the hierarchy of the folder tree.
 
@@ -43,8 +43,8 @@ The assignment of special folders can be changed in :ref:`Preferences > Special 
 How to Move Messages to Folders
 -------------------------------
 
-Sorting messages to individual folders is as simple as that: drag a message from the list with the mouse
-and drop it onto the folder you want it to move to. That also works with :ref:`multiple messages selected <mail-list-select>`.
+Filing messages to specific folders is as simple as dragging a message from the list with the mouse and dropping
+it on the folder you want it moved to. That also works with :ref:`multiple messages selected <mail-list-select>`.
 
 If the target folder is a subfolder and not currently visible, just hold the mouse over the parent folder while dragging
 and it'll expand automatically after two seconds. Move the mouse (while dragging) over the folder list footer to let it scroll
@@ -60,7 +60,7 @@ choose to either *Move* or *Copy* them.
 Moving from the Message View Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When reading a message in the fill message view screen, you'll find a drop-down menu labelled *Move to...* in
+When reading a message in the full message view screen, you'll find a drop-down menu labelled *Move to...* in
 the toolbar on top. Select a folder from that menu and the message will be moved there. The message view
 screen will then load the next message in the list of the current folder.
 
@@ -74,7 +74,7 @@ screen will then load the next message in the list of the current folder.
     ------------------------
 
     If your webmail system has the Archive plugin installed, a button labelled *Archive* appears in the
-    toolbar email task. This button moves the selected message(s) to the archive folder with one single click
+    toolbar email task. This button moves the selected message(s) to the archive folder with one single click.
 
     You can :ref:`configure <settings-prefs-folders>` how the archive folder is organized and divided into 
     subfolders either by date, sender or originating folder.
@@ -91,8 +91,8 @@ Delete Messages
 The selected message(s) can be deleted from the current folder by clicking the *Delete* icon in the toolbar
 or by hitting the <Del> (or Backspace on Mac) key on your keybaord. This will by default move the message to the
 Trash folder and not delete it right away unless you do this for messages in the Trash folder. In order to
-delete the message in first place, hold down the Shift key on the keyboard while clicking the *Delete* button
-or when pressing <Del>.
+immediately delete the message in first place, hold down the Shift key on your keyboard while clicking the
+*Delete* button or when pressing <Del>.
 
 There's a preference in :ref:`Settings > Preferences > Server Settings <settings-prefs-server>` where
 the default behavior of message deletion can be changed.
