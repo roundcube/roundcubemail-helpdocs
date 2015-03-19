@@ -8,7 +8,7 @@ Preferences
 The user preferences let you adjust various options and settings that control the behavior and the UI of the webmail application.
 The numerous settings are grouped by the following sections:
 
-.. note::  after changing preferences, don't forget to save them by clicking the *Save* button below the settings form.
+.. note::  After changing preferences, don't forget to save them by clicking the *Save* button below the settings form.
 
 
 .. _settings-prefs-ui:
@@ -34,7 +34,7 @@ User Interface
     With this option checked, dates close to today will be translated into relative terms like "Today", "Yesterday", etc.
 
 **Refresh**
-    Set the interval where you want the system to check for updates (e.g. for new messages arrived)
+    Set the interval you want the system to check for updates (e.g. for new messages arrived)
 
 **Interface Skin**
     Choose the visual appearance of the user interface from a selection of themes.
@@ -61,7 +61,7 @@ Mailbox View
     Select the delay to mark new messages as "read" when opening them in the preview pane.
 
 **Request for receipts**
-    This option controls the behavior when you open message the sender requested a receipt when you read it.
+    This option controls the behavior when you open a message for which the sender requested a read receipt.
 
 **Expand message threads**
     When listing messages in :ref:`threads <mail-list-thread>`, this option controls how conversation groups are
@@ -91,11 +91,11 @@ Displaying Messages
 
 **Display remote inline images**
     Formatted (HTML) messages can contain references to images which have to be loaded from a remote server.
-    That can harm your privacy and reveal to the sender that you opened the message. This technique is often used
-    by spammers to verify that your email address works and you can be sent more spam.
+    This can harm your privacy and reveal to the sender that you opened the message. This technique is often used
+    by spammers to verify that your email address works and you may receive more spam.
 
 **Display attached images below the message**
-    Enable this option if you want image attachments being displayed below the message text.
+    Enable this option if you want image attachments to be displayed below the message text.
 
 **After message delete/move display the next message**
     Controls whether the screen should jump to the next message in the list when opening an email message
@@ -121,7 +121,7 @@ Composing Messages
     the current browser window/tab.
 
 **Compose HTML messages**
-    Check this option to enable the rich text (HTML) editor when start to compose a new message.
+    Check this option to enable the rich text (HTML) editor when composing a new message.
     This is only the default setting for HTML message composing. It can be :ref:`toggled <mail-compose-html>`
     at any time while composing.
 
@@ -182,13 +182,13 @@ Address Book
     Select the default address book where new contacts are saved to when adding them from the mail view.
 
 **List contacts as**
-    Choose how names are displayed in the contacts list.
+    Choose how names are displayed in the contact list.
 
 **Sorting column**
     Select the contact attribute used for sorting the contacts in the list.
 
 **Rows per page**
-    The number of contacts displayed at a time (aka a "page") in the contacts list.
+    The number of contacts displayed at a time (aka a "page") in the contact list.
 
 **Skip alternative email addresses in autocompletion**
     With this option checked, every contact will only appear once in the autocompletion list
@@ -206,7 +206,7 @@ This form allows you to choose which folders are used to store *Drafts*, *Sent* 
 
 **Show real names for special folders**
     With this setting enabled, the original names of the assigned special folders are displayed in the
-    folders list instead of localized names.
+    folder list instead of localized names.
 
 .. only:: archive
 

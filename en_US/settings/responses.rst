@@ -24,15 +24,15 @@ both and save the changes by clicking the *Save* button.
 Create a New Response
 ---------------------
 
-Click the + icon in the responses list footer to create a new response.
-Give it a name and enter the response text and finish with clicking the *Save*
+Click the + icon in the response list footer to create a new response.
+Give it a name, enter the response text and finish with clicking the *Save*
 button.
 
 
 Delete a Reponse
 ----------------
 
-The *Delete* button also located in the responses list footer will delete the currently selected
+The *Delete* button also located in the response list footer will delete the currently selected
 item after displaying a confirmation dialog.
 
 The button may be grayed out for global responses managed by the system administrator.

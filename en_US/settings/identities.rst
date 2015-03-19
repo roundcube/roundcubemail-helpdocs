@@ -13,10 +13,10 @@ or only adjust the name and other control fields.
 Settings
 --------
 
-This first block contains general properties of the selected sender identity:
+This first block contains general properties for the selected sender identity:
 
 **Display name**
-    The full name displayed in the recipient's email program when you send out a message
+    The full name displayed in the recipient's email program upon receiving your message
 
 **Email**
     The email address stated as sender of email messages you send with this identity.
@@ -28,11 +28,11 @@ This first block contains general properties of the selected sender identity:
     with faked sender addresses.
 
 **Organization**
-    Some email programs do display the organization field when receiving messages from you
+    Some email programs display the organization field when receiving messages from you
     with this filled out.
 
 **Reply-to**
-    Enter an email address that differs from the identity's Email address here in order
+    Enter an email address that differs from the identity's email addresshere in order
     to force recipients to send answers to that address instead of the sender email address.
 
 **Bcc**
@@ -49,12 +49,12 @@ This first block contains general properties of the selected sender identity:
 Signature
 ---------
 
-Every sender identity can have its own signature text which will be apened to the message text
+Every sender identity can have its own signature text which will be appended to the message text
 when you start writing a new email message. Visit :ref:`Settings > Preferences > Composing Messages <settings-prefs-compose>`
 to configure when and how signatures are inserted.
 
 **Signature**
-    Enter the actual signature text here.
+    Enter the signature text here.
 
 **HTML signature**
     Check this option if you mainly send formatted (HTML) messages and to enable formatting 
@@ -64,8 +64,8 @@ to configure when and how signatures are inserted.
 Managing Multiple Sender Identities
 -----------------------------------
 
-Unless restricted by the server administrator, the identities list has control buttons for adding and deleting
-sender identities. If present, click the + icon in the identities list footer to create a new identity.
+Unless restricted by the server administrator, the identity list has control buttons for adding and deleting
+sender identities. If present, click the + icon in the identity list footer to create a new identity.
 Fill out the form and click *Save* to create it. The new identity is now added to the list and can be edited
 or deleted from there.
 

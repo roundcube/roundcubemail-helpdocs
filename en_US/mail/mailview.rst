@@ -65,13 +65,13 @@ Change message list columns
 ---------------------------
 The columns displayed in the list can be adjusted by clicking the *List Options* icon in the leftmost column of the message list header.
 This opens a dialog where you can select which columns to display and how to sort messages. Click *Save* to apply the changes and to
-close the dialog again.
+close the dialog.
 
-.. note::  the "From/To" column is a magic column that displays the sender of the message *or* the recipient when you switch
+.. note::  The "From/To" column is a magic column that displays the sender of the message *or* the recipient when you switch
     to the Sent or Drafts folder.
 
-The order of the columns in list can also be adjusted by dragging the header of a specific column with the mouse and dropping it at
-the position you'd like it appear.
+The position of the columns in list can also be adjusted by dragging the header of a specific column with the mouse and
+dropping it at where you'd like it to appear.
 
 .. index:: Select
 .. _mail-list-select:
@@ -94,23 +94,23 @@ On the left side you see a hierarchical list of all folders in your mailbox.
 Folders can be used to file email messages by topic, sender or whatever you choose
 for organization.
 
-Incoming messages usually appear in the Inbox folder which is the first item in the folders list.
+Incoming messages usually appear in the Inbox folder which is the first item in the folder list.
 There are some special folders which are used by the system to store sent (*Sent*) or deleted (*Trash*) messages
 and where not-yet-sent message drafts (*Drafts*) are saved. These system folders are indicated with special icons.
 
-The number of unread messages in each folder is displayed at the right border of the folders list.
+The number of unread messages in each folder is displayed at the right border of the folder list.
 
-Click a folder in the list to show the contained messages in the messages list on the right. The currently selected folder
+Click a folder in the list to show the contained messages in the message list on the right. The currently selected folder
 is highlighted in the list.
 
 Folders with hidden subfolders are indicated with a small [+] icon which can be clocked to expand or collapse the
-subtree of folders.
+folder tree.
 
 .. index:: Compact, Empty
 
 Folder operations
 -----------------
-In the footer of the folders list, the *Folder actions* icon shows a list of folder-related actions when clicked.
+In the footer of the folder list, the *Folder actions* icon shows a list of folder-related actions when clicked.
 Most of the actions in the menu affect the currently selected folder.
 
 **Compact**
@@ -130,7 +130,7 @@ Most of the actions in the menu affect the currently selected folder.
 Quota display
 -------------
 
-If your email account is limited by a maximum size, the quota display located in the footer of the folders list
+If your mailbox is limited by a maximum size, the quota display located in the footer of the folder list
 indicates the current usage of the available disk space. Move the mouse pointer over the percentage display
 to see the real numbers of your quota usage.
 
@@ -156,13 +156,14 @@ The rightmost icon |button-extwin| will open the message in a new window to have
 .. |button-extwin| image:: ../../_static/_skin/button-extwin.png
 
 
-Toggle Message Headers
-----------------------
+Expanding the Message Headers
+-----------------------------
 
 .. container:: image-right
 
   .. image:: ../_static/_skin/preview-headers.png
 
-  The preview pane is meant to give you a quick view on the message. Thus only important message headers such as sender and date are displayed right away.
-  The header part of the preview can be expanded with click on the down-arrow at the left of the header.
+  The preview pane is meant to give you a quick view of the message. Thus only important message fields such as sender
+  and date are displayed right away. The header part of the preview can be expanded with click on the down-arrow at the
+  left of the header.
 

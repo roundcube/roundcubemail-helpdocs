@@ -35,7 +35,7 @@ and the window will display the next message in the list.
 Jump to the Next or Previous Message
 ------------------------------------
 
-Use the arrow button on the right side of the headers box to jump to the next or previous message
+Use the arrow buttons on the right side of the headers box to jump to the next or previous message
 on the folder. If there's no next or previous message, the buttons will be disabled.
 
 
@@ -60,8 +60,9 @@ message text. Click on the file name to open or download it. If the file can be 
 in the web browser, a preview window will be opened showing the attachment. This will happen for
 images, text files and PDFs if your browser indicates being able to display them.
 
-Otherwise clicking the file name will initiate the download process and dialog asking you where to save it most likely appears.
-If that doesn't happen, check the default "Downloads" folder on your computer for the attachment file.
+Otherwise clicking the file name will initiate the download process and a dialog will most likely appear,
+asking you where to save the file. If that doesn't happen, check the default "Downloads" folder on your
+computer for the attachment file.
 
 Forcing Attachment Download
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
