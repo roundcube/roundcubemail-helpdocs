@@ -3,11 +3,11 @@
 
 # You can set these variables from the command line.
 SOURCE        = en_US
-VERSION       = 1.0
+VERSION       = 1.1
 LANGUAGE      = en
 INTL_LOCALES  = -l de -l fr -l sk
 # use tags to include documentation for specific plugins
-TAGS          = -t archive -t acl -t zipdownload -t kolab
+TAGS          = -t archive -t acl -t zipdownload -t v1.1
 SPHINXOPTS    = -c . -D language='$(LANGUAGE)' -D version='$(VERSION)' -D release='$(VERSION)'
 SPHINXBUILD   = sphinx-build
 SPHINXINTL    = sphinx-intl

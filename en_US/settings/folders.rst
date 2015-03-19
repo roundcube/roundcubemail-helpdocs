@@ -106,3 +106,14 @@ Delete Folders
     2. Click *Delete* in the *Access rights actions* menu in the list footer
     3. Confirm the deletion
 
+
+.. only:: v1.1
+
+    Search for Folders
+    ------------------
+
+    If the list of folders happens to be very long, a search box can be unfolded from the magnifier glass icon
+    in the header of the folder list. The folder tree is reduced to matching folders as you type in the search box.
+
+    Right above the search box, a drop-down menu provides ways to reduce the folder list to common scopes (aka "namespaces")
+    like "Personal", "Shared" or "Other users". The selection may vary with the capabilities of your email server.

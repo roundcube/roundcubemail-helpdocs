@@ -60,6 +60,25 @@ to configure when and how signatures are inserted.
     Check this option if you mainly send formatted (HTML) messages and to enable formatting 
     of your signature. The text box above will then show a toolbar to adjust formatting.
 
+.. only:: v1.1
+
+    Adding Images to a Signature
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+    HTML formatted signatures also allow to embed images which are sent with outgoing messages.
+    To add an image to your signature, first check the *HTML signature* box. Then find
+    an image file on your computer and drag & drop it into the signature box. The image can
+    be moved around or resized within the editor box using the mouse.
+
+    .. note::
+
+        Instead of pulling and image file into the editor, you can also paste an image from your
+        clipboard after copying it from another application or browser window.
+
+        Open the image in an image viewer or browser window, then press *Ctrl+C* to copy it,
+        click into the signature text box at the position where you want the image to appear
+        and press *Ctrl+V* to insert it from the clipboard.
+
 
 Managing Multiple Sender Identities
 -----------------------------------

@@ -34,6 +34,19 @@ Supported criteria keywords are:
 * subject:
 * body:
 
+.. only:: v1.1
+
+    .. _mail-search-scope:
+
+    Choose where to search
+    ----------------------
+
+    Also located in the search options menu, the "Scope" selector controls whether
+    messages are searched in the currently selected folders, including subfolders
+    or accross all folders. If a search query is already active, changing the scope in this menu
+    will immediately execute the search again and update the results in the message list.
+
+
 .. index:: Filter
 
 Message List Filters
@@ -46,3 +59,7 @@ The filter rules selected here are applied in addition to the search term entere
 For example you can choose to only list unanswered messages from Paul by selecting the filter *Unanswered* and enter
 "from:Paul" in the search box.
 
+.. only:: v1.1
+
+    The message filters also depend on the :ref:`"Scope" <mail-search-scope>` selected in the search options menu.
+    Change the scope if you want to expand the active filter to list matching messages from all folders.
