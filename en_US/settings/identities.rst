@@ -32,7 +32,7 @@ This first block contains general properties for the selected sender identity:
     with this filled out.
 
 **Reply-to**
-    Enter an email address that differs from the identity's email addresshere in order
+    Enter an email address that differs from the identity's email address here in order
     to force recipients to send answers to that address instead of the sender email address.
 
 **Bcc**
@@ -72,7 +72,7 @@ to configure when and how signatures are inserted.
 
     .. note::
 
-        Instead of pulling and image file into the editor, you can also paste an image from your
+        Instead of dragging an image file into the editor, you can also paste an image from your
         clipboard after copying it from another application or browser window.
 
         Open the image in an image viewer or browser window, then press *Ctrl+C* to copy it,
