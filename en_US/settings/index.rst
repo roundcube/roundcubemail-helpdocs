@@ -16,5 +16,5 @@ The *Settings* task holds all the switches and panels to configure your personal
    folders
    identities
    responses
-   ../_plugins/*/settings
+   ../_plugins/*/settings*
 
