@@ -61,7 +61,7 @@ Generating Translated Files
 1. Pull translated `.po` files from Transifex, for example for the French language:
 
 	```
-	tx pull -f fr
+	tx pull -f -l fr
 	```
 
 2. Compile `.mo` files:
