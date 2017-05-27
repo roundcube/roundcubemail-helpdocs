@@ -7,8 +7,8 @@ Searching Contacts
 
 For searching contacts enter name or email address into the search box above the in the toolbar area and
 press <Enter> on your keyboard to start the search. Search results will be displayed in the contact list in the middle.
-The number of contacts mathing your query is displayed in the footer area of the contact list and in case the results
-span multiple pages, use the arrow button in the list header to brwose through them.
+The number of contacts matching your query is displayed in the footer area of the contact list and in case the results
+span multiple pages, use the arrow button in the list header to browse through them.
 
 Reset the search by clicking the *Reset search* icon on the right border of the search box.
 
