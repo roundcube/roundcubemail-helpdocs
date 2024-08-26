@@ -19,7 +19,7 @@ This repo already contains the Sphinx project configuration and can be generated
 right away with the following command:
 
 	cd <this-repo-checkout-dir>
-	sphinx-build -b html -c . -d _build/en_US/doctrees -D language=en en_US _build/html/1.0/en_US
+	make
 
 The above example generates the English (US) online help files with English localization
 for the navigation into the `_build/html/1.0/en_US` output directory.
