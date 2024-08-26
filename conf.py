@@ -11,7 +11,7 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys, os, glob, imp
+import sys, os, glob, importlib.util
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -275,7 +275,9 @@ if os.path.exists('./conf.local.py'):
 # collect variables from plugin configs
 for pathname in config_files:
     try:
-        conf = imp.load_source('conf', pathname)
+        spec = importlib.util.spec_from_file_location('conf', pathname)
+        conf = importlib.util.module_from_spec(spec)
+        loader.exec_module(conf)
         if hasattr(conf, 'variables'):
             variables.update(conf.variables)
         if hasattr(conf, 'tags'):
@@ -290,9 +292,9 @@ for pathname in config_files:
             if hasattr(conf, varname):
                 locals()[varname] = getattr(conf, varname)
         # TODO: merge other config options like rst_prolog, rst_epilog, etc.
-    except Exception, e:
-        print "Failed to open config file", pathname
-        print e
+    except Exception(e):
+        print("Failed to open config file", pathname)
+        print(e)
 
 # add default tags if no custom ones defined
 if not custom_tags:
