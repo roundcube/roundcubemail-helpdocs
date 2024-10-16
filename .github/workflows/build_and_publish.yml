@@ -12,6 +12,8 @@ on:
 jobs:  
   build:
     runs-on: ubuntu-latest
+    container:
+      image: docker.io/sphinxdoc/sphinx:8.0.2
     steps:
       - name: Build static files
         id: build
