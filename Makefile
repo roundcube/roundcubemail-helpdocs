@@ -23,9 +23,9 @@ clean:
 	mkdir -p $(BUILDDIR)/locale/_plugins
 
 html: conf.py _static/default.css
-	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(SOURCE) $(BUILDDIR)/html/$(VERSION)/$(LANGUAGE)
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(SOURCE) $(BUILDDIR)/html/doc/help/$(VERSION)/$(LANGUAGE)
 	@echo
-	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html/$(VERSION)/$(SOURCE)."
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html/doc/help/$(VERSION)/$(SOURCE)."
 
 gettext:
 	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) $(BUILDDIR)/locale
