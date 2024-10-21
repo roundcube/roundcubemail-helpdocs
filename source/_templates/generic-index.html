@@ -1,0 +1,17 @@
+{% extends '!layout.html' %}
+
+{%- block body %}
+
+  <h1>Roundcubemail docs</h1>
+
+  <p>Here are the Roundcubmail docs in the available languages:<p>
+
+  <ul class="simple">
+    <li><a href='/doc/help/1.1/en_US/'>english</a></li>
+    <li><a href='/doc/help/1.1/de_DE/'>deutsch</a></li>
+    <li><a href='/doc/help/1.1/fr_FR/'>français</a></li>
+    <li><a href='/doc/help/1.1/sk_SK/'>slovensky</a></li>
+  </ul>
+
+{{ super() }}
+{%- endblock %}

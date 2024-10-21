@@ -7,7 +7,7 @@ if [ -z "$SKIN" ]; then
   exit
 fi
 
-for m in _static/_skin `find -L en_US -name '_skin'`; do
+for m in source/_static/_skin `find -L source -name '_skin'`; do
   dir=`dirname $m`
   echo "$m -> $SKIN"
   (cd $dir && unlink _skin && ln -s $SKIN _skin)
