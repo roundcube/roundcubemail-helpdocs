@@ -7,6 +7,8 @@ if [ -z "$SKIN" ]; then
   exit
 fi
 
+cd "$(dirname $0)/.."
+
 for m in source/_static/_skin `find -L source -name '_skin'`; do
   dir=`dirname $m`
   echo "$m -> $SKIN"
