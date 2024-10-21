@@ -15,14 +15,22 @@ First of all you need Python and [Sphinx][sphinx] installed. Grab the latest ver
 
 	sudo easy_install -U Sphinx
 
+Alteratively you can use a container image. Have a look at `install-deps-in-sphinx-container.sh`.
+
 This repo already contains the Sphinx project configuration and can be generated
 right away with the following command:
 
 	cd <this-repo-checkout-dir>
-	make
+	make html
 
 The above example generates the English (US) online help files with English localization
-for the navigation into the `_build/html/1.0/en_US` output directory.
+for the navigation into the `build/html/en_US` output directory.
+
+To generate the pages for all available languages and produce the document tree that is served on <https://docs.roundcube.net>, run:
+
+	make pages
+
+This builds the document tree in the `pages` directory.
 
 
 Integrating Help for Plugins
@@ -64,17 +72,23 @@ Generating Translated Files
 	tx pull -f -l fr
 	```
 
-2. Compile `.mo` files:
-
-	```
-	sphinx-intl build
-	```
-
 3. Run Sphinx to build the localized docs by using the LANGUAGE parameter:
 
 	```
 	make LANGUAGE=fr html
 	```
+   (Note: do not specify a 5-character `locale` here, it won't work.)
+
+
+Adding languages
+----------------
+
+To add a language to the list of generated pages, follow these steps:
+
+1. Add a section to the `Makefile`.
+1. Add the language to the `pages` target in the `Makefile`.
+2. Add a link to `source/_static/generic-index.html`
+
 
 Skins Support
 -------------
