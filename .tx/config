@@ -1,110 +1,151 @@
 [main]
 host = https://www.transifex.com
 lang_map = sk_SK: sk, de_DE: de
-type = PO
 
-[roundcube-webmail-help.index]
-file_filter = locale/<lang>/LC_MESSAGES/index.po
-source_file = _build/locale/index.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:addressbook--addressbookview]
+file_filter            = source/locale/<lang>/LC_MESSAGES/addressbook/addressbookview.po
+source_file            = build/gettext/addressbook/addressbookview.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.login]
-file_filter = locale/<lang>/LC_MESSAGES/login.po
-source_file = _build/locale/login.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:addressbook--editing]
+file_filter            = source/locale/<lang>/LC_MESSAGES/addressbook/editing.po
+source_file            = build/gettext/addressbook/editing.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.overview]
-file_filter = locale/<lang>/LC_MESSAGES/overview.po
-source_file = _build/locale/overview.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:addressbook--importexport]
+file_filter            = source/locale/<lang>/LC_MESSAGES/addressbook/importexport.po
+source_file            = build/gettext/addressbook/importexport.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.sphinx]
-file_filter = locale/<lang>/LC_MESSAGES/sphinx.po
-source_file = _build/locale/sphinx.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:addressbook--index]
+file_filter            = source/locale/<lang>/LC_MESSAGES/addressbook/index.po
+source_file            = build/gettext/addressbook/index.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.addressbook--addressbookview]
-file_filter = locale/<lang>/LC_MESSAGES/addressbook/addressbookview.po
-source_file = _build/locale/addressbook/addressbookview.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:addressbook--searching]
+file_filter            = source/locale/<lang>/LC_MESSAGES/addressbook/searching.po
+source_file            = build/gettext/addressbook/searching.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.addressbook--editing]
-file_filter = locale/<lang>/LC_MESSAGES/addressbook/editing.po
-source_file = _build/locale/addressbook/editing.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:index]
+file_filter            = source/locale/<lang>/LC_MESSAGES/index.po
+source_file            = build/gettext/index.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.addressbook--importexport]
-file_filter = locale/<lang>/LC_MESSAGES/addressbook/importexport.po
-source_file = _build/locale/addressbook/importexport.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:login]
+file_filter            = source/locale/<lang>/LC_MESSAGES/login.po
+source_file            = build/gettext/login.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.addressbook--index]
-file_filter = locale/<lang>/LC_MESSAGES/addressbook/index.po
-source_file = _build/locale/addressbook/index.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:mail--compose]
+file_filter            = source/locale/<lang>/LC_MESSAGES/mail/compose.po
+source_file            = build/gettext/mail/compose.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.addressbook--searching]
-file_filter = locale/<lang>/LC_MESSAGES/addressbook/searching.po
-source_file = _build/locale/addressbook/searching.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:mail--importexport]
+file_filter            = source/locale/<lang>/LC_MESSAGES/mail/importexport.po
+source_file            = build/gettext/mail/importexport.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.mail--compose]
-file_filter = locale/<lang>/LC_MESSAGES/mail/compose.po
-source_file = _build/locale/mail/compose.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:mail--index]
+file_filter            = source/locale/<lang>/LC_MESSAGES/mail/index.po
+source_file            = build/gettext/mail/index.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.mail--importexport]
-file_filter = locale/<lang>/LC_MESSAGES/mail/importexport.po
-source_file = _build/locale/mail/importexport.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:mail--mailview]
+file_filter            = source/locale/<lang>/LC_MESSAGES/mail/mailview.po
+source_file            = build/gettext/mail/mailview.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.mail--index]
-file_filter = locale/<lang>/LC_MESSAGES/mail/index.po
-source_file = _build/locale/mail/index.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:mail--organization]
+file_filter            = source/locale/<lang>/LC_MESSAGES/mail/organization.po
+source_file            = build/gettext/mail/organization.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.mail--mailview]
-file_filter = locale/<lang>/LC_MESSAGES/mail/mailview.po
-source_file = _build/locale/mail/mailview.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:mail--reading]
+file_filter            = source/locale/<lang>/LC_MESSAGES/mail/reading.po
+source_file            = build/gettext/mail/reading.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.mail--organization]
-file_filter = locale/<lang>/LC_MESSAGES/mail/organization.po
-source_file = _build/locale/mail/organization.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:mail--searching]
+file_filter            = source/locale/<lang>/LC_MESSAGES/mail/searching.po
+source_file            = build/gettext/mail/searching.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.mail--reading]
-file_filter = locale/<lang>/LC_MESSAGES/mail/reading.po
-source_file = _build/locale/mail/reading.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:overview]
+file_filter            = source/locale/<lang>/LC_MESSAGES/overview.po
+source_file            = build/gettext/overview.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.mail--searching]
-file_filter = locale/<lang>/LC_MESSAGES/mail/searching.po
-source_file = _build/locale/mail/searching.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:settings--folders]
+file_filter            = source/locale/<lang>/LC_MESSAGES/settings/folders.po
+source_file            = build/gettext/settings/folders.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.settings--folders]
-file_filter = locale/<lang>/LC_MESSAGES/settings/folders.po
-source_file = _build/locale/settings/folders.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:settings--identities]
+file_filter            = source/locale/<lang>/LC_MESSAGES/settings/identities.po
+source_file            = build/gettext/settings/identities.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.settings--identities]
-file_filter = locale/<lang>/LC_MESSAGES/settings/identities.po
-source_file = _build/locale/settings/identities.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:settings--index]
+file_filter            = source/locale/<lang>/LC_MESSAGES/settings/index.po
+source_file            = build/gettext/settings/index.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.settings--index]
-file_filter = locale/<lang>/LC_MESSAGES/settings/index.po
-source_file = _build/locale/settings/index.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:settings--preferences]
+file_filter            = source/locale/<lang>/LC_MESSAGES/settings/preferences.po
+source_file            = build/gettext/settings/preferences.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.settings--preferences]
-file_filter = locale/<lang>/LC_MESSAGES/settings/preferences.po
-source_file = _build/locale/settings/preferences.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:settings--responses]
+file_filter            = source/locale/<lang>/LC_MESSAGES/settings/responses.po
+source_file            = build/gettext/settings/responses.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
-[roundcube-webmail-help.settings--responses]
-file_filter = locale/<lang>/LC_MESSAGES/settings/responses.po
-source_file = _build/locale/settings/responses.pot
-source_lang = en
+[o:roundcube:p:roundcube-webmail-help:r:sphinx]
+file_filter            = source/locale/<lang>/LC_MESSAGES/sphinx.po
+source_file            = build/gettext/sphinx.pot
+source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
 
