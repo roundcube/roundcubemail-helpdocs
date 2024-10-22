@@ -16,10 +16,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build static files
         id: build
-        run: |
-          echo "TX: $TX_TOKEN" 
         env:
           TX_TOKEN: ${{ secrets.TX_TOKEN }}
+        run: |
+          echo "TX: $TX_TOKEN" 
       - name: Upload static files as artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3
