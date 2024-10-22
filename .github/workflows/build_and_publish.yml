@@ -17,6 +17,8 @@ jobs:
       - name: Build static files
         id: build
         run: ./bin/install-deps-in-sphinx-container.sh && make pages
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
       - name: Upload static files as artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3
